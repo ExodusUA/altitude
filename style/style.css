@@ -13,3 +13,7 @@
 .slickLogos img {
     width: 120px;
 }
+
+.blockItem {
+    padding: 1rem !important;
+}

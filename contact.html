@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altitude | Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/styleOld.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div id="___gatsby">
+        <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+            <div class="flex flex-col min-h-screen font-all text-black font-body debug-screens overflow-x-hidden">
+                <section class="z-50 relative">
+                    <header class="bg-opacity-100 bg-white fixed top-0 w-full flex flex-row flex-nowrap justify-center items-center h-20 my-0 mx-auto z-30 pt-5 font-all transition-all duration-300 ease-in-out">
+                        <div class="
+        flex flex-row flex-nowrap bg-transparent justify-between 
+        items-center w-full h-full container">
+                            <div class="flex flex-row flex-nowrap justify-start items-center h-full -ml-2">
+                                <a href="/"><img class="z-50 flex justify-center items-center" style="width:100px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdAAAABKCAYAAAAL1wWRAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABjDSURBVHgB7Z1tcttG0sd7Bnpx1nkq2s/PJoKYA5g6gakT2K5U7FjajckTWD5B5BNYPgElO5bfdkv2CcScwMoBVoS8+R5lq5KyJWF6uwFKsWVyBiSGxACcX5UiR4BECQTmP/3v6R4BnlIRhuFCDNAQIK+ChAWBWAcQC3zowqlH6QdGIMQRKvgZQe0HAPsRAR6Px+PJhVhcqnVhrNAAzv8VIgIFh/TPI0UD+Uw6kB+BI5AwNVDINuRAobr3nyh6BZb5G/1uUsqrJJbX6S2rQ34iFNBRSm3/EkUdcJxHOy/3EDDsd4z/jubtmy1wlO2dFwOfL7r+D1t//24TRqT9+GlDBkGue1bDkQBxRBc4iiE+BAH7gKdRa21tHyzQfvo0lBjsQYnI8n61f3y2Ts/q3UHHZ+aDxto33xx+8n3tF3U5D7uge33Ae63VW9bHF9uY7ktBWvD97W9XBn7/kxebUsA1cJw7qzeXSMc+iVwsI8Lkv8j/Sb8SUOjE/0vizRHSPqL4iUS148BgHkIuggWwyJdheF0KQQ+jaCQX7OwC5iek96MZCNmk9yARU6nUfVcj0554hv2OSRQhuE048IgQNu6XEMYE8k1HN4o8u+/ELE8IIiFkJ8b4tYXBPIQykeX9En3doAzMRoAnC3SpB74GjZsszM4LaDAzewdRhYOOx+r0vu776Z5bONMN15FQLHyhGkLADzSY79Fg/utirbb7Zfh1k61KmFI44mRnQAq5m4jneEnElKLv7uLS0h6/9jDf3N55fv3R03+22+2nIXimgZAGxyaJ6u72kxe/+vfeDq3WDXLmYFt3Dk1o6nSxnR4X2+3dBVTquvYkCR2oCEUL6EUW6C6hqAvbNKD/+lWt1h52QC8zPGlgEePJBBQyOxeNdCKztEe/S5jlO3hWnAyo80HXD6ZTBkVL/r23iIpN0eUCzF2+Di4zd3JdF0UroV63bt+OoCK4JqAf0bMZeUB/w1EpVBjSqzpNGt5MIOLMgOB8cJcnMDongAdMmhU3zv6/N5juUQ6jCZ6p4kxIHz99+QN4RqL1j9sdCiC060ICIe6Awxh/P1RbUCGcFtA/EXWOStnW5LwgVIzw66/vpOLpVk6IJjAN3UKv4NJsv8EylALaj569fACeqUMhblCe9I2PRkejzDbuxQl1H6LW6qrzOdxhKImAnhNyXrAXGYVQAXhCgAq3wEEQ4aH+uGoMPKZwPR1I3c7ZeMZCPXEivIgOT5lt3DnZ1B3mxYpQMWaghPQWvTTI1r3/n+jfW1BSeBKQt3RmnEhQAx/m9uPn/BCHoIcG0ss0kLZXWq2WMyVL04ICdQ/e42gz/hl+b+UC3QR1IcQVdiN0ua0+hD0Rpff+05wX58Ho2BJYIJgPHiDAQFFR72MrrwPwbuz3MNu4209eHGlX46Y26RY4hjTYtwixfvVtRuy9n/kppYD2CNnWpWj0Sq8Eo3QDNKaLhdyM0BA7urKWIAjuIBtOZurB3P+xnetsrWZlQXnUat2MYDSi3udzAU7r+zjKyJyH64loe7nfBKqfsI5Ce+f5b1JT4mXrdSaFAnxIf8/AXPKZjevSpJTvDdBMqAWIjq3FQy69n2WzcD+BZsbrnD8sm6Ub1mr8gITgKAKkNhcTi5N79ChrzzkDhWq2d56tg6fUcHR0Z/VWUwmOALK990QYfPa5X1g0DEp1DGc4Z+Ny7afueIynWe+XUlF6Ae3BVuheWUQ0sW4RNsBdKPbUW+M8m0wGU0U2YQYkyB98PrQanL/3GLdMq0YZzof3IhRPBpLVuH86AH1xaTVuUvuJqqk55QiO31Vq8dAZVRFQpjQiqjStvlxgmGQ/tzZTCMsZBtIFOfcXH4VWiNba7S0l42UwDPbMGFsOVhKFWJ7VuFz7qYHGk1dVXQNRJQFlSiGiZDuPw345oqcqotzlfvI5B5xTHub81trNfQWxORIV4q6PQqsFR6Nk6a5kmECFPgodAmmsl1yAmUt1cABTNIyncSXtW8aGgPYG7gsfAEXNOEhExa6rrQDDtLNSCHY44lITgWrlsHvw18PoYOkw6i4nn7sHgr6+TB8tSmhmt08Mi4cGkUQjhrIX4Id+/rMmeCpFIqJonnQFwYzPhWaErykvvNGdI2aCwm3cTLWfqSVdSXILKIfn6cB94YMH9HQQX+IBnqKue72BPIKxI+pkkzr6sEpLs0bcZ4F8Gx2sRwOa8NPXecebrcODgxu994FXwka6n2paPKTleHbD2EkFAud3WfAMD1v5pgGfB1rvQGQnRvWT7jg7WUVfzwHNVM6hPLmV0hVXGbuFG6VQVHOwyQM5iSoP5MuYevwRjAlenftVWHMu54YgrkJ+IoG4Mkyk2HsfttLrD3xT9xM6+lqcPVq9QNoQG/XNFwCdsJ089onjU/Ng6XovV5c4nts0nFG4jatrppJQocbx/SgkB8qR0duo2+yJqTEqGhXe5cU5K1f039dyuB+hVvLUvdJkZuODScw57CbkrqfNkLtpP3niRbSCZFk9KoXy731GeELqso1rqv2sWuP4fhS+iOhCVGSbBQet3BDyMGKO8iL8M3gSk1jrvWiUN9iGnCQPjHFByawfRCsK5cFfa48Ld2ufXSRWsfZ6Fmnjmmo/q9Y4vh/OrMLtRUXcoikCi7CV69iWaLludpQiAouwtc7RKAuzrQ3NecNl/QnK58GqisKO7rBEeQU82TmZ3zKcUYiNmywe0td+Vq5xfD+cKmPhqIjtSV4gAxYJhPCr/zTwdT+MuitgiRji37QnoPACWlVmlOnZ9e/9EDhr484FDd3hKjaO74dzdaCpiCIP5hFYQzQcqg3NlWOka+PtT0+Z8QI6JC7auMGEGse7jpONFHghSxqJ2qslVaDfamdiYN6/SdQds6Q9Hs84YRtXP25M1MY11X7abBzvOs52IurZuTfAEkKAI+3zRG57OhDS6f1QA5CL+jPs5nE9niqT2LhCP25M0sY11X5WtXF8P5xu5Zc0CBimi46eBRciN5q5HUJ+nG5ZiCabTsUReKrJqXGVbQSeoYljpa2vHlN70L4Yaj8r2zi+H873whUZd/vIggRZeBE3gsodgfZgEe1+Vas5FY2yvQOmZgkzfhCtLlI7eRLefRiN07mOycadRK/h9uPnPIaGg45XuXF8P5wXULZyEdGKJUA2buFt5AIAq7Mzmnk2WUgXl5b2vgy/bhbeOMKwOg94efuU5EemkWBG36pRCYzAMzRJly+B2sVEMhBjDxBM72+VG8f3oxS7sUjALbBDWLTApJ1+9LVyoyEaUmCbxPTXxVpttygxlQK0+ZFpWd4+rZhau6GKtf1dPRpiU2MCOdY8aKbazwo3ju9HKQQ0yYWiNduvAQUjULyGcUL5kI/FNJyIdb399CWLZ6g7B/F0vH+7pzDaT140wdRpq+K9UcdJIk5F2rgGd6nqjeP7UZr9QBHAysCrrO2GkodkJjmZPEEipnJ3camW5EvHtZCKBs86qeOG4bSp6E4yjXAdosl9IPa9fZ8PRfNU3fFx2rhSCH0lwxROjkojoBKUnYFXwiIUTFrnCpOerYWcLw2E3GMxDS0KKc966UbaM503jTPUaSGY/9zoPtD7b9ov1mNCmXZLGo+N227TBFmzOHAaGsf3ozQCSlhZvepKJx/uQTueXGgmQrAUAT8m21YGwR4IY4eZiDfdBk/lYOseAdcNp0Xevs1PUTZucEnqo88paBzfjxkoCRy1LYa1CHLv5uBOH1YS8xYKwZFbCBMFeaPtkSckSduw2c+aUsq7CrNtz6biuAWeSsH3AUeeiEbxJOtRPfT2rR3YxqXIZ6Cg9WzcDljEsDhsoqmZRzsvjW7XJPh+9duV0ghogrASNYXgCFyiQ1bqDW6KABPsESpQDm2lJfWdc9AIYPYqgrqeIeL8E8T707Y6r+oktn0QtCnyDDOcTgPsd5vgsQPbuEGgiQgTG9c4qclKhtrPDkwQXRvBSVMqAaWZ7s9CCCcsWFtwJEgiujJZEY07g46kKykxDAL5BcRiAXkDZKSHpyeYyPPfocDtO2u3NsBTes6ch0AG1zIPYmQ3Khlb2+nHk9q42zsvIhgsaomNa2vSGgTBHd1zPy2N4/tRrgjUElwfmdZjukFPRJd7IhrCGKHZ4tZhd/CG3OlKShGiwqRLQ4KAUV9t+87qrSZ4Ske6u8elBZiX9UDKqzR+1s9EEwEz/xwlsOWtW/tQ6mRbarZptGXjpo3j1cCVvdPUOL4fJRNQO23AKIr9AiZVRpKRnp27okBsCMNWQXlQSg1cBp+pji8rZNv6yLNYaDJ0l/JFme8lEkZ2GRboHwsfWvTJZGoE6NtarbVbvmxpHCjVodBQUzZkycY11H5OU+P4fkxlBEpW8G/gICyi9Ik7CHUoGjWWBYzyEr9wU4oBBEJeG96i/fQ1eMGQz3k6QX2YaPGckR2HHmzbqviGvwfGB19bmhx1NFa6FRvXUNs7VY3j+1GmMhZruGTf9oN+P7JZD5Z6taIRWAJxcBG2yaox/3AaNCnqVO9/X/YD5/SCZOlRztPfAxMgRqVti5i3qUJa++kbx+soWQTKK/7yTo/LQxQdbFA0ukWPwnVM9zMNIQcSNLVacyNvOB5xPgaO/9ic9odpquEJlFD3/WrbCXI8twnzJ2Ozcbn2E1GzeKigxvHqfbwEjlAqARUgv4BRLKmPKdUg37N1eVDaJDFt0gz/LoyyEhmx0/tZfZFD5F05ykCe/VIexkcaUw4LJ+BDP4GaPLxDyzhtXGPtZ0HPfqvlzqKlktWBqgULCZoISgpbu/Rpi4S0rkCsCyGuQsaolCYfWvuWzjgyTU5ooLwB7//o+IFyyiHRRJCvUJ1s+wlUscQqfi2lbAw6PupqXNOCQt+WM6Vsq3Dz14BiuSLQfvS6CDX53ySm11GSVaPfkZ6+5d9bgw7yjK799OkNqYI3ugYJAci737daE180wJswZyzY99iGxVKIiBJe+4inP1NYsu9F0yFO5rfIxn0w+ITRbNyAHCntAjTfljGhNALKG3mihUYDZD/+DBWClJEF7RVfH/rc6Ld6N0unEK7lav/47L4UcuDDyFZRe+fZus9zlQMF6h68xxwTnndH3m1wm3HYuOmCwsGNMqa1cXw/SiOgMYmDpSXDEVSQXn5zC1KL9zomWw+JBh+TSmWyW1p//27z0c6LqzRRGRjNSpAP6IGccBRitpddpN3epQnfieYMO3XNA0FJAngzAk+lsW7jGmo/yb/1tb09SlPGQjm8q2ABmpXvQ8XhqPSw210RqFrceUi3eOgi8ftZbvquPZ97oKadaiZDDPHAul2nrd1L7/TXSJz66M6TH7Zxtamp4bY4M9R++l2VPqAUAsqt94RIc3550TUSqBq86OjtwcFQu6CwJZRh55QwmL/chkmBJXUNTg0LvGLhBdSTG35mhRC6wCDzFme988JBxyfdON51SiGgMUCuguBzsLD9N0sF27MKQbtjC9u8nA+FSYCoE5oQnEVqI9C5v8x1weOxQMy12BqyNlUIZma10eo0N47vRykEVKYLY3KDIF6DJxOttZvr3Chadw7lQ39oP3mSf2W0CdTnCp/861+L4CJCby+vffPNIXg8NjiefWXDxkXlG8cPg/MCGtZq1nrCSlA++T0EsThtmXa/l2J2d+z50Bl93vr4/ftlcBEhQ83RyufiPZMjSb0I1AUIRhs3qf3UlLFNe+P4fjgtoEnpCsIG2MDQicfzKTzbVBDfM5wWBp99bsUh0P0e+jO0QlUYgRBXBh0T4POfHsvEmladhG6lLhOYupFNeeP4fjgroIl4pvtjWkHXiadIOMJerNV2eaEUOAivuDPmQxWuTyAfGg08IqABDqKrpaNcUqXqkT0OcHppX+sYaQTSVPvJq/l9TfCnOCmgLCYoxC7YWyCi7cRTFCyeSYSNwHWbe66KKOVXNsBU2sL50KQl4HhQgAN3npBop8TJJia7TIHqgMdjkcTGBdAFCuHA+3JWv8ioqMbxruOcgPYizzdW2vb10G3jVRTn4nmOqPPf3eso5BTJg4lww3DagpwPxpcPVWhlmf7EkIF+1aO+7MDjGQ0Va23WQTYuff2u5tsi376xP04J6JdJBx0WT6ulCZF2G68C+FQ8/zzEtrWTIrp2c18pZcqH1seWDw303U/y7n1oGyngmuZw5FczesZBInRD2rim2k/fOH4wTggoC8bi0tKeFJJtW6sRjEBx36XFQxrxPD+FJxFfhbXJ1FgOAbf6M5W2pPnQ59bFLBEcwzL9SXZH0uGL0T1FMqyNa6r99I3jB1OogP4tDBssnCQY3bO+rZZxKveZQTzP4M5LD76q1R64lhfNUNpCN5VojyMfahgYFmDushNRqLEYHU99PbJnfAxh43K/Zl3tp28cr2eiAspiwKJJ0dWDxaVaN0hW2Y5FOBMEqhVwhCHE8xyBsM7R6Jfh101whKS0RcXGfGgwP2O/1Z9pYND38JwIyWpGVE3NKUet1VVfDuAZG0PZuHMn13W1n75xvB7rAsoiyZbs/4dhnXOabEVSJNWmSPMNR5osmhRdsT0ZwhghsXLGuh1FPD/8dimQr9+eK0KardUfNh49e/kALL+uIfoNJ9ZecADBpVmtiJN96wckz9hRgLrn89zGNdR++sbxBnILKEVJTYom8eyDRPJXFsoZipw4p8lWJJ/TW1U7ETuSxOrh2+hgAxwgp3h+gGikQlrr8oSEJyc8SSnM4k1KW/QrSZN8qOXVsYaBYezlNDq4k4sh+qRrcqL9/T0eKyh9mRTbuBlqPzvg0VKa7cyyg/sknk4swLEnnh//WJ6Q8OSEJyk8YelNXibamDxtHXZ6w5gPDbi0xaKgHc9tmtoLjsU+NsB/o8lCTnqJrq358hXP2EnLTjQTXI485wLtOOkbx5upmIDivkB0Iu9JkWFjDOI5kCJmi0k+FI2bdVsVtLRYHCduH+vg1b9yPuCuWaHuvDg+9QOSZ2LQs6lbrBbS4D/QvvWN47NRIQFNxZPSnk60m6Lfo0OR4sQGTKlUIdZgWtqiz+uxoD1++tLeAh9zFJrYx1ZfcwBJ5Dl/2SieSSs0X4zumSTSUP/uG8fnphICiojbh93usivieUZEedgJiSivlyrMGozfz/IG3JHuHIW4YSsfmnZGMka+yWs+2nmxO66cKOU8673I09g1y9thnknDEaSpbnsgvnF8JkovoCRQ995G3SY4Sk9ETR18csHNIqBAEkGL45bpPMqHtm01O8jS1IHhjb9Z5JKtmizBfwNHt5TzzNY1C/G+t8M8RRCreOiaY984PjszUFoSy7ZVZOSVFRLRTcqJ7qOQnAsMwTpxBwqG7UkSqYckKrqemmEw/zl3m7KSp+amDhLNuUdISoGgvb3z4gfFjsBx3Gm1hhc0jmRnLs3cUWQPU3SbaSLAg1Fz9dYGeDxFcDK/BfMnQ60HcL1xvCt9r3nMK6OAHlFE9zCKuhtQIjgnSiK6ku4yY7FRPg3Qh1036l1bazfXH+28vKLfxgsbXKvZWv1uE/K+HkV1JNo3yEbZ0xaD/0kipDAfAP2enRjVT8lyf6mO4Pg4+nDWndi+c4p+pqwHwcwVyqk26Mt1Ek7OHWVlH9/9Plb3wePRwe4Q3+u6Z/ICzjeOJyfL2jaXORGlElCu75SgNlzLdWal19hhOQxrG2ipa45SyqnZYhIVquCNTtAkyAc0i9y38aByk3sS0RWJmUU0gQcUKUQDgoDehwBgfhYoQr1wVpCeS2HrCOyr97+veCvMUzRs45o20z7DN44fjjLkQDnivC9QLXF9Z1nF80PSvKhaAsPCmyw/6heKbMEhMpa22M2H8k4xMl6G/NfTCiS3r7x4epyBbdys+MbxQ+GugCJyGcg9FhoWHJd2VLEB/z2H3YMl+vuMK1gH4eI+pwwv8DG1+oMkH3rZXn0oC7eIV0wlNeNGgbrXXL15w4unxxXYxs2y4M7Xfg6PWwL6gWgeRt0VXnxThYhTB/19W6MKqWv7nH5E0upP//fwClmbvWv54f+exItsqJEnJaOCNPiQgC/ZyO16PLaJEbfN5/jaz2EpTkCRBjgBr3r27Ap9/PUD0YxgyvhYSLFj/AaabLh8ndJaTTDt2pLmQ588sbaoKnnttdtbd1ZvLk1CSBPhjOOV5uq3K3727nGW49lXhuYjvnH8CMxkGqxHBIWIkn8oOCSlPopBHQUAXHYSORhZHuW9FgGoCHLCQkqftnhHG/rcQCmv0Y3fgAuN+AVI52eLyQKfH5/dEzK4pjtPihmOQptg/fWTAWGLl73LQDbpql0FC2VELJrIK3iP/9gs1Ko9DY4w0Fhz6jSCaYAm4zTWdMAJVIQw0xl09Pi///0NCoAntO2d569p3Fjsdzy5n13BqfdTT/YF+Z5CIT3lKC1UIOsUti2+PTgwNi7wfAp3DwKFoQywgclgIhYEYEgP7cL5Kl6eqYt0to484UN5hHj6M40y+3D6bt/nNz0eD/M/g4cUhIUrC08AAAAASUVORK5CYII="
+                                        alt="disruptive logo"></a>
+                            </div>
+                            <div class="flex flex-row flex-nowrap justify-center items-center bg-transparent h-full w-3/4">
+                                <div id="Services" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-black
+            false
+            ">Services</div>
+                                <div id="Industries" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-black
+            false
+            ">Industries</div>
+                                <div id="About" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-black
+            false
+            ">About</div>
+                                <div id="Blog" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-black
+            false
+            ">Blog</div>
+                            </div>
+                            <div class="flex flex-row flex-nowrap justify-end items-center h-full"><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 cursor-pointer h-5/6 flex items-center text-black bg-white hover:shadow-button border-2 border-black hover:border-transparent
+      undefined
+      undefined
+      
+      ">Contact</button></div>
+                        </div>
+                    </header>
+                </section>
+                <main class="w-full">
+                    <section class="flex flex-col sm:flex-row mt-20">
+                        <div class="w-full relative overflow-hidden sm:flex-1 h-auto">
+                            <div class="bg-black flex justify-end h-full">
+                                <div class="w-full max-w-3xl py-12 px-4 sm:px-12 lg:px-32 xl:pl-36 xl:pr-24 sm:py-20 z-20 flex flex-col justify-items-stretch">
+                                    <p class="text-2xl font-bold mb-2 text-white sm:mb-4 sm:text-3xl">We want to be your strategic growth partner, not another cookie-cutter digital marketing agency.</p>
+                                    <p class="text-base text-gray mb-2">Whether you’re looking for paid ads support, an audit of your existing efforts, or any other strategic marketing advice, we’ll shoot it straight with you and only proceed if we think it will be a winning relationship
+                                        for both of us.</p>
+                                    <p class="text-base text-gray mb-4 sm:mb-6">And if you’re interested in employment opportunities, please tell us about yourself. (Button-pushers need not apply.)</p>
+                                    <p class="font-bold text-xl text-white sm:text-2xl ">Find out what makes Disruptive different.</p>
+                                    <p class="font-bold text-xl text-white sm:text-2xl ">Let's chat!</p>
+                                    <div class="hidden sm:flex mt-44 items-center">
+                                        <a href="https://www.facebook.com/disruptiveads/" rel="noopener noreferrer" target="_blank"><img class="mr-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFNSURBVHgBnZMxSwMxGIZzZwcRCw4OTvbEToL4L0QdRFwEQegoLhVEJ6H0ZzhoBd0s4j/QVScdHOXuBxQVURBCiU9ohJAm17u+8FzS7/v6fkkuF4mAlFJTDHVI4Be+4DGKIiWKCIM6nMGnGtY3dCAZZdKEDzVa73AUMmmp8mq5Jts5xT04gQU12Paqk1+zjdIco0Wn6bSTT3W8wmTXvBmfHnhLb8ZglmEfqk5NQm6jwmRdhJVZ81NoBuq2Yh7zophmcnJLekVznsQdvMCzE8ugBg27WEpZ1Xt/8hxwQwREbtNTf6+39irKacUTS3WHHU+HPki4sFZybmJ9T/2eXtEt9JwOOq7PL7JiEyYWO7UZV+Qq5iH5cSDG1/F/Z4HZDUNblFeb/3aHomrw4Upr7x0rd+mc4WFuCwr0lb82hq7RD3RhWRQVxZNQcxoEb/cfLCfZBZJ0d0MAAAAASUVORK5CYII="
+                                                alt="facebook logo"></a>
+                                        <a href="https://www.instagram.com/disruptiveads/" rel="noopener noreferrer" target="_blank"><img class="mr-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEYSURBVHgBjVOBkYJADAzMF0AHTwfvd2AHjxW8X8JXoHZgB2gF2gFjBdoBdgBWgLu6N3NGEDOzc0fIJtkQzGBd12XAAmi6cauBkhxyE12OAM8tcLLXNgV+gBb4NmVj5XyEGDotGCvO0kJLA4Q8tKrnSjImwJpJUvhz4OCIU4CyaqBRkUIS92qfUrO0pyoDKwX9ATPdd8A5SZIZcI4JtHn0XKu6T1zFfnJITP2QJGllz8b2qf0zdnoJmTtja3VeBhNIG4fz25NgYfcZtLHzoyfwHwh6V+qGCSd2H+ij+SHKV2iYwY78tC7mNkTTRq17Ogmblw+8K1mEl+W7qxyRwyqX/mfilh1G+F/A3MLPFLW6cbqHrFHXt099BVBhUkwvIO7OAAAAAElFTkSuQmCC"
+                                                alt="instagram logo"></a>
+                                        <a href="https://www.linkedin.com/company/disruptive-advertising/" rel="noopener noreferrer" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACtSURBVHgB3VPRDYQgDG3NDeAIjOAKN8ndBo5w5yTqJDqCTqAb6Ab4moCpfFE/fclLoZQ+KIW89zW4gQv4ISv8FQsZUYCTmo9kBEPVwX7BHeyYeTclsARDrIIpwekUgnNQNWiD75/UxoUia/wk9pUpPoAu8YnIXFA+GrBPfHXuCd648yoDqIqJ/VJlnSBuDtDPXlquEHF55jsJ6GEJWLWnYJWKh//hziDmMY7TtQPX0nqUMfBuUAAAAABJRU5ErkJggg=="
+                                                alt="linkedin logo"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diagonal-rec-bg bg-charcoal bg-opacity-50 right-2 !important"></div>
+                        </div>
+                        <div class="bg-white sm:flex-1 flex justify-start py-12 sm:py-20">
+                            <div class="w-full max-w-3xl px-4 sm:px-12 lg:px-24 xl:pr-20 xl:pl-16">
+                                <h1 class="text-2xl font-bold mb-1 sm:mb-2 sm:text-5xl">Contact Us</h1>
+                                <p class="text-sm text-gray mb-6">Required fields are marked *</p>
+                                <div>
+                                    <!-- FORM -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <div class="w-full relative overflow-hidden bg-undefined undefined
+  ">
+                    <footer>
+                        <div class="mb-28 flex-col-reverse bg-charcoal flex justify-evenly py-8 lg:pt-20 lg:pb-10 lg:flex-row">
+                            <div class="flex container flex-col-reverse md:flex-row">
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Services</h2>
+                                    <a href="/ppc-management-services/paid-search-management/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Paid Advertising</p>
+                                    </a>
+                                    <a href="/lifecycle-marketing/lead-nurture/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Lifecycle Marketing</p>
+                                    </a>
+                                    <a href="/creative-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Creative Services</p>
+                                    </a>
+                                    <a href="/conversion-rate-optimization-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Website Optimization</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Industries</h2>
+                                    <a href="/industry/ecommerce/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Ecommerce</p>
+                                    </a>
+                                    <a href="/industry/b2b/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">B2B</p>
+                                    </a>
+                                    <a href="/industry/legal/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Legal</p>
+                                    </a>
+                                    <a href="/industry/home-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Home Services</p>
+                                    </a>
+                                    <a href="/industry/healthcare/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Healthcare</p>
+                                    </a>
+                                    <a href="/industry/finance/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Finance</p>
+                                    </a>
+                                    <a href="/industry/insurance/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Insurance</p>
+                                    </a>
+                                    <a href="/industry/education/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Education</p>
+                                    </a>
+                                    <a href="/enterprise/ecommerce/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Enterprise</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">About Us</h2>
+                                    <a href="/about/our-mission/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Our Mission</p>
+                                    </a>
+                                    <a href="/about/meet-our-team/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Meet the Team</p>
+                                    </a>
+                                    <a href="/about/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">About Us</p>
+                                    </a>
+                                    <a href="/careers/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Careers</p>
+                                    </a>
+                                    <a href="/partners/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Partners</p>
+                                    </a>
+                                    <a href="/about/who-we-work-with/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Who We Work With</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 false z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Blog</h2>
+                                    <a href="/social-media/facebook-power-5/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Facebook Power 5</p>
+                                    </a>
+                                    <a href="/ppc/ecommerce/ecommerce-buyer-personas/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Ecommerce Buyer Personas</p>
+                                    </a>
+                                    <a href="/business/innovating-in-the-workplace/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Innovating In The Workplace</p>
+                                    </a>
+                                    <a href="/video-advertising/video-motion-creative/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Video Motion Creative</p>
+                                    </a>
+                                </div>
+                                <div class="flex flex-col justify-start items-start lg:items-end z-10 relative">
+                                    <a href="/"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTE2IiBoZWlnaHQ9IjE5IiB2aWV3Qm94PSIwIDAgMTE2IDE5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI0LjIwMzYgMS44NDgwOEMyMy40NjYyIDIuNjM5NjYgMjMuMDA2OCAzLjY5MDk5IDIzLjAwNjggNS4wMTI1OUMyMy4wMDY4IDYuNTE1MjggMjMuNDc2NyA3LjU3NzEgMjQuMjAzNiA4LjM3MDk2VjEuODQ4MDhaTTI0LjIwMzYgMTIuODE2NEwyMS42MDAyIDE1LjM3MDJDMjIuNDE5IDE2LjE5OTcgMjMuMjc3NiAxNi44Nzg4IDI0LjIwMzYgMTcuMzg5MlYxMi44MTY0Wk0yNC4yMDQ3IDE3LjM4OThWMTIuODE1M0wyNC4yODU1IDEyLjczNjFMMjQuMzQ1NiAxMi43OTE3QzI1LjY5NzIgMTQuMDQzNiAyNi43NDMgMTUuMDEyMiAyOC42MzMyIDE1LjAxMjJDMjguNjg1NSAxNS4wMTIyIDI4LjczNzggMTUuMDExMiAyOC43OTAxIDE1LjAwOTFMMjcuNDY3MSAxOC40Mjg1QzI2LjI3ODQgMTguMjkzNSAyNS4yMDI1IDE3LjkzOTYgMjQuMjA0NyAxNy4zODk4Wk0zMi42NjIzIDUuMDAwODJDMzEuNjQwNyA0LjE3NzI1IDMwLjQxMzkgMy40NTI1NSAyOS4wOTM1IDMuNDUyNTVDMjguMTQ3MyAzLjQ1MjU1IDI3LjE0OTkgMy45NjQwNCAyNy4xNDk5IDQuOTg3MDFDMjcuMTQ5OSA2LjEwNjA1IDI4LjMzNTkgNi40OTA5IDI5LjM5OTYgNi44MzYwN0wyOS4zOTk2IDYuODM2MDhMMjkuMzk5NiA2LjgzNjA5QzI5LjU3NTcgNi44OTMyMyAyOS43NDg0IDYuOTQ5MjggMjkuOTExOSA3LjAwNzRDMzAuNDcyIDcuMTk5NzQgMzEuMDU5NiA3LjQwNzExIDMxLjYzNTEgNy42NTU3OUwzMC4xNTI5IDExLjQ4NjhDMjkuNTY2OCAxMS4xMDUxIDI4Ljc4NzkgMTAuODIxNCAyOC4wMDkxIDEwLjUzNzdMMjcuODY1OSAxMC40ODU1QzI2LjUyMzIgOS45ODAyIDI1LjE0NzkgOS40MDE1MiAyNC4yMDQ3IDguMzcyMTdWMS44NDY5QzI1LjM2NTIgMC42MDIwMDQgMjcuMjEzMyAwIDI5LjA0MjQgMEMzMC45NDIxIDAgMzIuNTA4NCAwLjUwMDE5MSAzNC4wMzc0IDEuNDQ2NzNMMzIuNjYyMyA1LjAwMDgyWk0wIDE4LjE4MzRINS4xNDA0NkMxMC4xMDE5IDE4LjE4MzQgMTUuMjY3OSAxNS43Nzk0IDE1LjI2NzkgOS4xNTU2NUMxNS4yNjc5IDIuNjg1MzIgMTAuMDI1MiAwLjI4MTMxOCA1LjM3MDYzIDAuMjgxMzE4SDBWMTguMTgzNFpNNC4xNDMwNiAzLjcwODI5SDQuOTYxNDRDOC42OTUzMSAzLjcwODI5IDEwLjg2OTEgNS42Nzc1MyAxMC44NjkxIDkuMzg1ODJDMTAuODY5MSAxMy4yOTg3IDguMjA5MzkgMTQuNzU2NCA0LjM3MzIzIDE0Ljc1NjRINC4xNDMwNlYzLjcwODI5Wk0yMC44NDA0IDE4LjE4MzRWMC4yODEzMThIMTYuNjk3M1YxOC4xODM0SDIwLjg0MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM2LjE5ODEgMC43ODg4OTRDMzcuOTQ1MiAxLjQ3ODMzIDM5LjM3NTYgMi45MDg0NSAzOS4zNzU2IDUuMzE4NDRDMzkuMzc1NiA3Ljk1MjYgMzcuNjg3NyA5Ljg0NTExIDM0LjcyMTEgMTAuMzMxQzM2LjY2NDcgMTIuOTkwOCAzOS41NTQ2IDE2Ljg3ODEgNDAuNTI2NSAxOC4xODI0SDM4LjE3MzZMMzIuNTQ3MiAxMC4zODIySDMyLjQyNThMMzMuMTExMiA4LjYzOTEyQzM1LjcyIDguNTcwNDUgMzcuMzU1MiA3LjYwOTg4IDM3LjM1NTIgNS4zNjk1OEMzNy4zNTUyIDQuMDYwNjcgMzYuNjY4MiAzLjA0MTU3IDM1LjUzMDcgMi40ODYxNUwzNi4xOTgxIDAuNzg4ODk0Wk01NS44OTAzIDAuMjgwMjczSDUzLjk5NzhWMTAuNDg0NUM1My45OTc4IDE0LjcwNDMgNTIuMTMwOSAxNi43NTAyIDQ5LjA4NzUgMTYuNzUwMkM0Ni4wNjk3IDE2Ljc1MDIgNDQuMTc3MiAxNC43MDQzIDQ0LjE3NzIgMTAuNDg0NVYwLjI4MDI3M0g0Mi4yODQ3VjkuNzY4MzlDNDIuMjg0NyAxNS4zOTQ4IDQ0LjMzMDcgMTguNDg5MyA0OS4wMzYzIDE4LjQ4OTNDNTMuODY5OSAxOC40ODkzIDU1Ljg5MDMgMTUuMzk0OCA1NS44OTAzIDkuNzY4MzlWMC4yODAyNzNaTTU5Ljk0NzIgMTguMTgyNFYwLjI4MDI3M0g2NS4xMTMzQzY3Ljk1MiAwLjI4MDI3MyA3MS4yNTExIDEuNjg2ODcgNzEuMjUxMSA1LjUyMzAzQzcxLjI1MTEgOS4zODQ3NyA2Ny45Nzc2IDEwLjc5MTQgNjUuMTEzMyAxMC43OTE0SDYxLjgzOThWMTguMTgyNEg1OS45NDcyWk02NC45ODU0IDIuMDE5MzNINjEuODM5OFY5LjA1MjNINjQuNDczOUM2Ny4xODQ4IDkuMDUyMyA2OS4yMzA4IDguMTU3MiA2OS4yMzA4IDUuNTc0MThDNjkuMjMwOCAzLjM0OTIxIDY3LjQ5MTcgMi4wMTkzMyA2NC45ODU0IDIuMDE5MzNaTTgyLjg2NTEgMi4wMTkzM1YwLjI4MDI3M0g3MS43MTQ3VjIuMDE5MzNINzYuMzQzN1YxOC4xODI0SDc4LjIzNjJWMi4wMTkzM0g4Mi44NjUxWk04Ny4wMTY2IDAuMjgwMjczVjE4LjE4MjRIODUuMTI0MVYwLjI4MDI3M0g4Ny4wMTY2Wk0xMDMuNDk3IDAuMjgwMjczSDEwMS40NzZMOTUuNzk4NiAxNS4zMThIOTUuNzczTDkwLjgxMTYgMC4yODAyNzNIODguNjM3OEw5NC44NTIzIDE4LjE4MjRIOTYuNjE3TDEwMy40OTcgMC4yODAyNzNaTTExNS43NjUgMTYuNDQzM1YxOC4xODI0SDEwNS4zNTZWMC4yODAyNzNIMTE1Ljc2NVYyLjAxOTMzSDEwNy4yNDhWOC4wNTQ5SDExNS43NjVWOS43OTM5NkgxMDcuMjQ4VjE2LjQ0MzNIMTE1Ljc2NVoiIGZpbGw9IiNBMUE2QUEiLz4KPC9zdmc+Cg=="
+                                            alt="Disruptive Advertising Logo"></a>
+                                    <div class="flex flex-col justify-evenly pt-6 pb-2 lg:flex-row z-10 relative">
+                                        <a href="https://www.facebook.com/disruptiveads/" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="/static/facebookLogo-d27bb0805b51bce3dfa4e01b93c154c4.svg" alt="facebook logo"></div>
+                                        </a>
+                                        <a href="https://www.instagram.com/disruptiveads/?hl=en" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjU4NDUgMEg0LjQxNTMzQzEuOTgwNzIgMCAwIDEuOTgwODEgMCA0LjQxNTQyVjExLjU4NDZDMCAxNC4wMTkzIDEuOTgwNzIgMTYgNC40MTUzMyAxNkgxMS41ODQ1QzE0LjAxOTMgMTYgMTYgMTQuMDE5MiAxNiAxMS41ODQ2VjQuNDE1NDJDMTYuMDAwMSAxLjk4MDgxIDE0LjAxOTMgMCAxMS41ODQ1IDBaTTE0LjU4MDUgMTEuNTg0NkMxNC41ODA1IDEzLjIzNjUgMTMuMjM2NSAxNC41ODA0IDExLjU4NDYgMTQuNTgwNEg0LjQxNTMzQzIuNzYzNDggMTQuNTgwNSAxLjQxOTYgMTMuMjM2NSAxLjQxOTYgMTEuNTg0NlY0LjQxNTQyQzEuNDE5NiAyLjc2MzU4IDIuNzYzNDggMS40MTk2IDQuNDE1MzMgMS40MTk2SDExLjU4NDVDMTMuMjM2NCAxLjQxOTYgMTQuNTgwNCAyLjc2MzU4IDE0LjU4MDQgNC40MTU0MlYxMS41ODQ2SDE0LjU4MDVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy45OTc4IDMuODc3NjlDNS43MjQ0NSAzLjg3NzY5IDMuODc1IDUuNzI3MTQgMy44NzUgOC4wMDA0OEMzLjg3NSAxMC4yNzM3IDUuNzI0NDUgMTIuMTIzMSA3Ljk5NzggMTIuMTIzMUMxMC4yNzExIDEyLjEyMzEgMTIuMTIwNiAxMC4yNzM3IDEyLjEyMDYgOC4wMDA0OEMxMi4xMjA2IDUuNzI3MTQgMTAuMjcxMSAzLjg3NzY5IDcuOTk3OCAzLjg3NzY5Wk03Ljk5NzggMTAuNzAzNEM2LjUwNzMxIDEwLjcwMzQgNS4yOTQ2IDkuNDkwODcgNS4yOTQ2IDguMDAwMzlDNS4yOTQ2IDYuNTA5ODEgNi41MDcyMiA1LjI5NzE5IDcuOTk3OCA1LjI5NzE5QzkuNDg4MzcgNS4yOTcxOSAxMC43MDEgNi41MDk4MSAxMC43MDEgOC4wMDAzOUMxMC43MDEgOS40OTA4NyA5LjQ4ODI4IDEwLjcwMzQgNy45OTc4IDEwLjcwMzRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTIuMjk0OSAyLjY3NDA3QzEyLjAyMTQgMi42NzQwNyAxMS43NTI4IDIuNzg0OCAxMS41NTk2IDIuOTc4ODFDMTEuMzY1NSAzLjE3MTg4IDExLjI1MzkgMy40NDA2NSAxMS4yNTM5IDMuNzE1MTFDMTEuMjUzOSAzLjk4ODcxIDExLjM2NTYgNC4yNTc0IDExLjU1OTYgNC40NTE0MUMxMS43NTI3IDQuNjQ0NDcgMTIuMDIxNCA0Ljc1NjE1IDEyLjI5NDkgNC43NTYxNUMxMi41Njk0IDQuNzU2MTUgMTIuODM3MiA0LjY0NDQ3IDEzLjAzMTIgNC40NTE0MUMxMy4yMjUzIDQuMjU3NCAxMy4zMzYgMy45ODg2MiAxMy4zMzYgMy43MTUxMUMxMy4zMzYgMy40NDA2NSAxMy4yMjUzIDMuMTcxODggMTMuMDMxMiAyLjk3ODgxQzEyLjgzODIgMi43ODQ4IDEyLjU2OTQgMi42NzQwNyAxMi4yOTQ5IDIuNjc0MDdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
+                                                    alt="instagram logo"></div>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/disruptive-advertising/" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuOTQwMyAwQzAuNzY3MDc2IDAgMCAwLjc3MDM5NiAwIDEuNzgyOTdDMCAyLjc3MzE5IDAuNzQ0MjI1IDMuNTY1NTYgMS44OTUyOCAzLjU2NTU2SDEuOTE3NTRDMy4xMTM3MSAzLjU2NTU2IDMuODU4MTMgMi43NzMxOSAzLjg1ODEzIDEuNzgyOTdDMy44MzU3NyAwLjc3MDM5NiAzLjExMzcxIDAgMS45NDAzIDBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMC4yMDMxMjUgNC45NzM2M0gzLjYzMjk0VjE1LjI5MjRIMC4yMDMxMjVWNC45NzM2M1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMi4wNTExIDQuNzMyMThDMTAuMjAwOSA0LjczMjE4IDguOTYwMTkgNi40NzA4MiA4Ljk2MDE5IDYuNDcwODJWNC45NzQzNkg1LjUzMDI3VjE1LjI5MzFIOC45NlY5LjUzMDcyQzguOTYgOS4yMjIyMyA4Ljk4MjM2IDguOTE0MjMgOS4wNzI5OCA4LjY5MzYzQzkuMzIwOTMgOC4wNzc2MiA5Ljg4NTE3IDcuNDM5NDUgMTAuODMyNyA3LjQzOTQ1QzEyLjA3MzggNy40Mzk0NSAxMi41NzAyIDguMzg1NzIgMTIuNTcwMiA5Ljc3MjkxVjE1LjI5MzFIMTUuOTk5N1Y5LjM3NjUzQzE1Ljk5OTcgNi4yMDcwNSAxNC4zMDc2IDQuNzMyMTggMTIuMDUxMSA0LjczMjE4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
+                                                    alt="linkedin logo"></div>
+                                        </a>
+                                        <a href="https://www.facebook.com/disruptiveads/" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Facebook</p>
+                                        </a>
+                                        <a href="https://www.instagram.com/disruptiveads/?hl=en" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Instagram</p>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/disruptive-advertising/" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Linkedin</p>
+                                        </a>
+                                    </div><a href="tel:8779567510" class="text-white mb-4 lg:mb-0 lg:mt-3" data-ctm-watch-id="1" data-ctm-tracked="1">(877) 956-7510</a>
+                                    <div class="z-10 flex flex-col items-start mb-10 mt-0 lg:mt-32">
+                                        <p class="font-all pb-2 font-semibold text-white">Ready to work with us?</p>
+                                        <div class="relative">
+                                            <form><input class="relative bg-charcoal pl-2 border border-footer text-gray border-gray w-30 md:w-60 h-12 bg-black" placeholder="Email" name="userEmail" value=""><img class="absolute right-4 bottom-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC1SURBVHgBpZJNCsJADIVf2oLbeoMexZ/i2qu4EBERUwQLunDrVUSk7Qk8gh7BpSCd6CCilMrM1A8GAuF7ZEIAC5bpZqFfXc83yczbEEG5E8GwHw+QHQ/Fd98zB4yugrILwkWJcHUSgiWcphHBzyCIPCKeT8eJU8CvEEpW6zOcoBCQUFc6JBC4QfgYpVLU+AsikvBswo2W+JZfE/0hWwXoQ6LW/VQna4yXmOf7W6cXt59lUZU1D7T7WV5r03jVAAAAAElFTkSuQmCC"
+                                                    alt="right arrow"></form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="
+          z-10 absolute bottom-0 w-full 
+          bg-black 
+          text-gray 
+          py-10 lg:py-8
+        ">
+                            <div class="container flex flex-col justify-start lg:flex-row lg:justify-between">
+                                <p class="font-all pb-6 z-10">© 2021 Disruptive Advertising</p>
+                                <a href="/privacy-policy">
+                                    <p class="font-all pb-6 z-10">Privacy Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
+                    <div class="hidden h-full bg-transparent w-full sm:flex justify-evenly absolute top-0 undefined">
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                    </div>
+                    <div class="sm:hidden h-full bg-transparent w-full flex justify-evenly absolute top-0">
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
