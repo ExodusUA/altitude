@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altitude | Clients</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/styleOld.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div id="___gatsby">
+        <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+            <div class="flex flex-col min-h-screen font-all text-black font-body debug-screens overflow-x-hidden">
+                <section class="z-50 relative">
+                    <header class="bg-opacity-0 bg-charcoal fixed top-0 w-full flex flex-row flex-nowrap justify-center items-center h-20 my-0 mx-auto z-30 pt-5 font-all transition-all duration-300 ease-in-out">
+                        <div class="
+        flex flex-row flex-nowrap bg-transparent justify-between 
+        items-center w-full h-full container">
+                            <div class="flex flex-row flex-nowrap justify-start items-center h-full -ml-2"><a href="/"><svg class="cursor-pointer mr-2" width="116" height="19" viewBox="0 0 116 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.2036 1.84808C23.4662 2.63966 23.0068 3.69099 23.0068 5.01259C23.0068 6.51528 23.4767 7.5771 24.2036 8.37096V1.84808ZM24.2036 12.8164L21.6002 15.3702C22.419 16.1997 23.2776 16.8788 24.2036 17.3892V12.8164ZM24.2047 17.3898V12.8153L24.2855 12.7361L24.3456 12.7917C25.6972 14.0436 26.743 15.0122 28.6332 15.0122C28.6855 15.0122 28.7378 15.0112 28.7901 15.0091L27.4671 18.4285C26.2784 18.2935 25.2025 17.9396 24.2047 17.3898ZM32.6623 5.00082C31.6407 4.17725 30.4139 3.45255 29.0935 3.45255C28.1473 3.45255 27.1499 3.96404 27.1499 4.98701C27.1499 6.10605 28.3359 6.4909 29.3996 6.83607L29.3996 6.83608L29.3996 6.83609C29.5757 6.89323 29.7484 6.94928 29.9119 7.0074C30.472 7.19974 31.0596 7.40711 31.6351 7.65579L30.1529 11.4868C29.5668 11.1051 28.7879 10.8214 28.0091 10.5377L27.8659 10.4855C26.5232 9.9802 25.1479 9.40152 24.2047 8.37217V1.8469C25.3652 0.602004 27.2133 0 29.0424 0C30.9421 0 32.5084 0.500191 34.0374 1.44673L32.6623 5.00082ZM0 18.1834H5.14046C10.1019 18.1834 15.2679 15.7794 15.2679 9.15565C15.2679 2.68532 10.0252 0.281318 5.37063 0.281318H0V18.1834ZM4.14306 3.70829H4.96144C8.69531 3.70829 10.8691 5.67753 10.8691 9.38582C10.8691 13.2987 8.20939 14.7564 4.37323 14.7564H4.14306V3.70829ZM20.8404 18.1834V0.281318H16.6973V18.1834H20.8404Z" fill="#1F2122"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M36.1984 0.78987C37.9455 1.4793 39.3759 2.90943 39.3759 5.31941C39.3759 7.95358 37.6879 9.84609 34.7213 10.332C36.665 12.9917 39.5549 16.8791 40.5267 18.1834H38.1739L32.5475 10.3832H32.426L33.1114 8.6401C35.7203 8.57143 37.3555 7.61086 37.3555 5.37056C37.3555 4.06165 36.6685 3.04255 35.531 2.48712L36.1984 0.78987ZM55.8905 0.28125H53.998V10.4854C53.998 14.7052 52.1311 16.7512 49.0877 16.7512C46.07 16.7512 44.1774 14.7052 44.1774 10.4854V0.28125H42.2849V9.76936C42.2849 15.3957 44.3309 18.4902 49.0366 18.4902C53.8702 18.4902 55.8905 15.3957 55.8905 9.76936V0.28125ZM59.9475 18.1834V0.28125H65.1135C67.9523 0.28125 71.2514 1.68784 71.2514 5.52401C71.2514 9.38575 67.9779 10.7923 65.1135 10.7923H61.84V18.1834H59.9475ZM64.9856 2.02031H61.84V9.05328H64.4742C67.1851 9.05328 69.231 8.15818 69.231 5.57516C69.231 3.35018 67.4919 2.02031 64.9856 2.02031ZM82.8654 2.02031V0.28125H71.7149V2.02031H76.3439V18.1834H78.2364V2.02031H82.8654ZM87.0168 0.28125V18.1834H85.1243V0.28125H87.0168ZM103.497 0.28125H101.476L95.7988 15.319H95.7733L90.8118 0.28125H88.638L94.8526 18.1834H96.6172L103.497 0.28125ZM115.765 16.4443V18.1834H105.356V0.28125H115.765V2.02031H107.249V8.05588H115.765V9.79494H107.249V16.4443H115.765Z" fill="#A1A6AA"></path></svg></a></div>
+                            <div class="flex flex-row flex-nowrap justify-center items-center bg-transparent h-full w-3/4">
+                                <div id="Services" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-white
+            false
+            ">Services</div>
+                                <div id="Industries" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-white
+            false
+            ">Industries</div>
+                                <div id="About" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-white
+            false
+            ">About</div>
+                                <div id="Blog" class="
+            flex
+            row-nowrap
+            max-w-1/3
+            px-4
+            w-full
+            h-full
+            justify-center
+            items-center
+            bg-transparent
+            cursor-pointer
+            text-white
+            false
+            ">Blog</div>
+                            </div>
+                            <div class="flex flex-row flex-nowrap justify-end items-center h-full"><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 cursor-pointer h-5/6 flex items-center text-white bg-disruptive-red hover:shadow-button hover:bg-primary-hover active:bg-primary-pressed
+      undefined
+      undefined
+      
+      ">Contact</button></div>
+                        </div>
+                    </header>
+                </section>
+                <main class="w-full">
+                    <div class="w-full relative overflow-hidden bg-transparent">
+                        <section class="flex justify-center md:pt-40 pb-0 pt-24 xl:pb-20 bg-charcoal">
+                            <div class="container xl:flex z-10 xl:items-center">
+                                <div class="flex-1 mb-12 xl:mb-0">
+                                    <div class="flex flex-col items-start text-left xl:pr-8">
+                                        <h1 class="text-white text-2xl xl:text-5xl font-bold mb-6 leading-extra-tight">Who we work with</h1>
+                                        <p class="text-white xl:text-2xl mb-10 max-w-lg">Curious if Disruptive is the right marketing partner for your company? </p><a><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 undefined text-white bg-disruptive-red hover:shadow-button hover:bg-primary-hover active:bg-primary-pressed
+      undefined
+      undefined
+      
+      ">Contact Sales</button></a></div>
+                                </div>
+                                <div class="undefined safari-round w-full xl:w-1/2 relative overflow-hidden xl:rounded-hero flex justify-center xl:block">
+
+
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear 0s;"></div>
+                                    <img src="https://disruptiveadvertising.com/static/ce341cefafbdd3b0e2c13110b3aedf9c/9598a/whoWeWorkWithHero.webp" alt="">
+
+
+                                </div>
+                            </div>
+                        </section>
+                        <div class="w-full h-24 absolute bottom-0">
+                            <div class=" bg-white h-screen w-full transform -skew-y-6 relative"></div>
+                            <div class="hidden h-screen transform -skew-y-6 w-full sm:flex justify-evenly absolute top-0">
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                            </div>
+                            <div class="sm:hidden h-screen transform -skew-y-6 w-full flex justify-evenly absolute top-0">
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="py-16 lg:py-24 flex justify-center bg-white">
+                        <div class="container z-10 flex flex-col lg:flex-row  w-full
+      lg:items-start 
+      justify-start">
+                            <div class="
+          text-3xl font-bold lg:w-1/2
+          lg:pr-28 pb-6 lg:pb-0 
+          text-black
+          false
+          false 
+          ">
+                                <h2 class="max-w-sm text-2r font-bold">Did you know we turn away 9 out of 10 companies that reach out to us? </h2>
+                            </div>
+                            <div class="lg:w-1/2 false text-black">
+                                <p class=" mb-4">When it comes to vetting our potential customers and helping them vet us, we use well established criteria for all parties involved. The 3 main things we look for in our potential customers are:</p>
+                                <div>
+                                    <div class="py-3 border-t-2 border-extra-light-gray  ">
+                                        <div class="flex flex-col items-start pb-4 cursor-pointer">
+                                            <div class="flex justify-between w-full">
+                                                <img class="object-contain" src="images/lightMinusIcon.webp" alt="">
+                                                <p class="undefined w-11/12 font-semibold text-xl text-black">Is there significant room for impact?</p>
+                                            </div>
+                                            <p class="pt-3 ml-12 text-sm text-gray">If you consider us to do marketing work for your company, are we confident that we have the resources and skill to accomplish your goals and make a positive impact for your business? If the answer is yes, we
+                                                move on to the next step.</p>
+                                        </div>
+                                    </div>
+                                    <div class="py-3 border-t-2 border-extra-light-gray  ">
+                                        <div class="flex flex-col items-start pb-4 cursor-pointer">
+                                            <div class="flex justify-between w-full">
+                                                <img class="object-contain" src="images/lightMinusIcon.webp" alt="">
+                                                <p class="undefined w-11/12 font-all font-semibold text-xl text-black">Is there sufficient budget to realize that impact?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="py-3 border-t-2 border-extra-light-gray border-b border-extra-light-gray ">
+                                        <div class="flex flex-col items-start pb-4 cursor-pointer">
+                                            <div class="flex justify-between w-full">
+                                                <img class="object-contain" src="images/lightMinusIcon.webp" alt="">
+                                                <p class="undefined w-11/12 font-all font-semibold text-xl text-black">Are the expectations between us and the potential client (you) aligned in a way that leads to a long-term partnership? </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="flex justify-center undefined items-center bg-light-gray py-24">
+                        <ul class="max-w-7xl shadow-xl rounded-xl w-3/4  mx-4 z-10 lg:w-4/7">
+                            <div class="carousel-root" tabindex="0">
+                                <div class="carousel carousel-slider" style="width:100%">
+                                    <ul class="control-dots">
+                                        <li style="background:gray;width:8px;height:8px;display:inline-block;margin:0 8px;border-radius:50%;border:2px solid gray" aria-label="Selected: slide item 1" title="Selected: slide item 1"></li>
+                                        <li style="background:#fff;width:8px;height:8px;display:inline-block;margin:0 8px;border-radius:50%;border:2px solid gray" value="1" role="button" tabindex="0" title="slide item 2" aria-label="slide item 2"></li>
+                                        <li style="background:#fff;width:8px;height:8px;display:inline-block;margin:0 8px;border-radius:50%;border:2px solid gray" value="2" role="button" tabindex="0" title="slide item 3" aria-label="slide item 3"></li>
+                                    </ul><button type="button" disabled="" title="previous slide / item" style="position:absolute;z-index:2;top:calc(50% - 15px);padding-bottom:20px;width:16px;height:16px;cursor:pointer;left:-30px;opacity:.5"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACdSURBVHgBpZDBDcIwDEUdwhnqCQjZgA1gg25EV2EEbhxhBCaomSDmxqnGkThEImrS9kmOksN/sW0hg/P+vEE8vkN4QAGTC4tAp1cyMhyIiMcEq5HwqRT++3m396LVOwWmsCRskrYj/Ktq1jDoItNVCkzHOd/NHcHGgzncscHYSQvGtNhsr6xUC5ZIbPrISC7q+FQLUonu8vmi/gYFvowjUE3vrbyxAAAAAElFTkSuQmCC" alt="left arrow"></button>
+                                    <div class="slider-wrapper axis-horizontal">
+                                        <ul class="slider animated" style="-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-transition-duration:200ms;-moz-transition-duration:200ms;-o-transition-duration:200ms;transition-duration:200ms;-ms-transition-duration:200ms">
+                                            <li class="slide selected previous">
+                                                <div class="w-full h-full">
+                                                    <div class="flex h-full flex-col lg:flex-row bg-light-gray py-16 w-full items-center lg:justify-center">
+                                                        <div class="flex flex-col pb-4 lg:mr-2 lg:ml-2">
+                                                            <div class="bg-transparent pb-4 pl-4 relative z-30 text-center m-auto"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAC2CAYAAAB08HcEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG0SURBVHgB7dvBSYNBFIXRN+pPtinBEiwlJdiGKydCCFiNJVmCW0GISQV5i1ldzlndGi58Y54+X6ouh4IYf18PBXG2AgAAgLvG9e57HaPeC0KMSx3Hbcx5fi6I8ftTAADAUmPOua/a7QtCzPn2/VTb7lDj0d1HjI/T+VgAAABwz9A8kkfzSCTNIwAAAA2aR+JoHgmleQQAgNU0j8TRPBJJ8wgAAECL5pFAmkciaR4BAABo0DwSR/NIKM0jAACspnkkjuaRSJpHAAAAWjSPBNI8EknzCAAAQIPmkTiaR0JpHgEAYDXNI3E0j0TSPAIAANCieSSQ5pFImkcAAAAaNI/E0TwSSvMIAACraR6Jo3kkkuYRAACAFs0jgTSPRNI8AgAA0KB5JI7mkVCaRwAAWE3zSBzNI5E0jwAAALRoHgmkeSSS5hEAAIAGzSNxNI+E0jwCAMBqmkfiaB6JpHkEAACgRfNIIM0jkTSPAAAANGgeiaN5JJTmEQAAVtM8EkfzSCTNIwAAAC2aRwJpHomkeQQAAKBB80gczSOhNI8AALCa5pE4mkciaR4BAABo0TwSSPNIpK3+AVqgsbt1aSCPAAAAAElFTkSuQmCC"
+                                                                    alt="gray lines box" class="absolute -z-10 w-36 bottom-0 left-0 ">
+                                                                <div class="bg-white p-2 pb-2 w-56 rounded">
+                                                                    <div class=" w-52">
+
+                                                                        <img src="images/woman.jpg" alt="Woman">
+
+                                                                    </div>
+                                                                    <div class="flex flex-col items-start justify-start w-full">
+                                                                        <p class="font-all">Monica Grant</p>
+                                                                        <p class="font-all text-gray">Adobe</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col items-start px-2 max-w-xl w-full lg:w-2/3 lg:ml-2">
+                                                            <p class="font-all text-3xl font-bold text-left w-full">Let the results from our clients speak for themselves.</p>
+                                                            <div class="w-full flex items-start pt-6 "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFzSURBVHgB7VPbVcJAFJy7Sf7TgUsFUkJ88YtWAHSAFagVSAdgBeKfRzm4JdBBoIMUwNnxBjGHPEB+/GNOTpLdnZk7+xLsQZpcJ8aYLoUJSCuQ6dn8c4ADSJMkhgn7QulCxAK0YQPJikRjCBKCyB9o4y+sLjsPhB8qN/6hb4QoFVglnR6NH+lvXDXw4ArNqa0E0SvJdlOQokB61blV0uSYtDvmsZjoS8PafZywSEE/bjDPdKIv+l3Ah646aEz0rOO25ko6Em+5LtwSdf2qy8Ip/XrQci5DU/rLm75q+mWJLEmvmpkrZpCnrxHV3M5ndzgAEfS2+/iLjDQXLfex3O0MYYJhPUVwf8g8D6XmSUkGPrXc+7LKNSLmvJyMrolYQhC0Kz0Z/HrSRA1RPV4ei03COrJiPyjlAjprfcebi1YrkF+MXa7BSBCNqsR8CfTzuDW0pQMnbOvlTNEAg3/GqcCpwKmA3mSBnxxDpASLoiFwquMxum/pG5E99KddEAAAAABJRU5ErkJggg=="
+                                                                    alt="left quote" class="w-4 pb-2 "></div>
+                                                            <p class="font-all pr-4 max-w-2xl lg:text-left">I am extremely impressed with the rockstar team we've worked with at Disruptive over the course of the last quarter. They've exceeded our expectations in terms of scaling, strategy, and paid
+                                                                social program performance.</p>
+                                                            <div class="w-full flex justify-end "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF2SURBVHgB7VTBVcJAEP2zoOd0YNIBdBCD4SpWIFQgVoBUgHYQKjBH34MH24HpgNBBvIpvx0FEErIBLt74p53Zmf9n9s0spUHIOAEERFezSW99XlyHERHuT8lT+GecBc4CZwGgTjCR7YJBHdlfZ2sb4OPvkqAlr/QDMCtX7vy8j1CBtBW+i0pjJ8hDbzZ9wgEs/Js+KRrtFClR9kDfzZP/tqBxBFSj27wtLS6tAkpdDPZcmaenGgewCMKuMPoFJ3NcElgG7YEodwuVATEOkfthQ2KKRTGlwCquF4III3lrfz/QsBraiX1HqcsHhunnB2KTZsbeXGeUBu1XseW92bWRsEHP05OoQNxqdwg8kCdw94k3SUjc+aS5PkoH3EEFfiZHTyOLqhREDesQSscyrndbs2rRMiF/rB5Ldir8MfNn09Nv6dZTLxNjDFN7zgeVeZRTKJ5ZM2Nom7S6EL7IUqZyToCvxNM6wzHIJkuHkiOTYlZactKq0G8/eZgDuHPq4QAAAABJRU5ErkJggg=="
+                                                                    alt="right quote" class="w-4 pb-8 pt-2 "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="slide">
+                                                <div class="w-full h-full">
+                                                    <div class="flex h-full flex-col lg:flex-row bg-light-gray py-16 w-full items-center lg:justify-center">
+                                                        <div class="flex flex-col pb-4 lg:mr-2 lg:ml-2">
+                                                            <div class="bg-transparent pb-4 pl-4 relative z-30 text-center m-auto"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAC2CAYAAAB08HcEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG0SURBVHgB7dvBSYNBFIXRN+pPtinBEiwlJdiGKydCCFiNJVmCW0GISQV5i1ldzlndGi58Y54+X6ouh4IYf18PBXG2AgAAgLvG9e57HaPeC0KMSx3Hbcx5fi6I8ftTAADAUmPOua/a7QtCzPn2/VTb7lDj0d1HjI/T+VgAAABwz9A8kkfzSCTNIwAAAA2aR+JoHgmleQQAgNU0j8TRPBJJ8wgAAECL5pFAmkciaR4BAABo0DwSR/NIKM0jAACspnkkjuaRSJpHAAAAWjSPBNI8EknzCAAAQIPmkTiaR0JpHgEAYDXNI3E0j0TSPAIAANCieSSQ5pFImkcAAAAaNI/E0TwSSvMIAACraR6Jo3kkkuYRAACAFs0jgTSPRNI8AgAA0KB5JI7mkVCaRwAAWE3zSBzNI5E0jwAAALRoHgmkeSSS5hEAAIAGzSNxNI+E0jwCAMBqmkfiaB6JpHkEAACgRfNIIM0jkTSPAAAANGgeiaN5JJTmEQAAVtM8EkfzSCTNIwAAAC2aRwJpHomkeQQAAKBB80gczSOhNI8AALCa5pE4mkciaR4BAABo0TwSSPNIpK3+AVqgsbt1aSCPAAAAAElFTkSuQmCC"
+                                                                    alt="gray lines box" class="absolute -z-10 w-36 bottom-0 left-0 ">
+                                                                <div class="bg-white p-2 pb-2 w-56 rounded">
+                                                                    <div class=" w-52">
+                                                                        <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                                                            <div style="max-width:210px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height='210' width='210' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+                                                                                    style="max-width:100%;display:block;position:static"></div>
+                                                                            <div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear"></div>
+                                                                            <picture>
+                                                                                <source type="image/webp" sizes="(min-width: 210px) 210px, 100vw" srcset="/static/164f1d74f236a7f2ce068d0e0a65592e/9b17f/will.webp 53w,/static/164f1d74f236a7f2ce068d0e0a65592e/04e70/will.webp 105w,/static/164f1d74f236a7f2ce068d0e0a65592e/13330/will.webp 210w,/static/164f1d74f236a7f2ce068d0e0a65592e/27135/will.webp 420w"><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 210px) 210px, 100vw" decoding="async" loading="lazy" alt="example img" src="/static/164f1d74f236a7f2ce068d0e0a65592e/98c66/will.jpg"
+                                                                                    srcset="/static/164f1d74f236a7f2ce068d0e0a65592e/ea35b/will.jpg 53w,/static/164f1d74f236a7f2ce068d0e0a65592e/982cc/will.jpg 105w,/static/164f1d74f236a7f2ce068d0e0a65592e/98c66/will.jpg 210w,/static/164f1d74f236a7f2ce068d0e0a65592e/690d8/will.jpg 420w"></picture><noscript><picture><source type="image/webp" srcSet="/static/164f1d74f236a7f2ce068d0e0a65592e/9b17f/will.webp 53w,/static/164f1d74f236a7f2ce068d0e0a65592e/04e70/will.webp 105w,/static/164f1d74f236a7f2ce068d0e0a65592e/13330/will.webp 210w,/static/164f1d74f236a7f2ce068d0e0a65592e/27135/will.webp 420w" sizes="(min-width: 210px) 210px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 210px) 210px, 100vw" decoding="async" loading="lazy" src="/static/164f1d74f236a7f2ce068d0e0a65592e/98c66/will.jpg" srcSet="/static/164f1d74f236a7f2ce068d0e0a65592e/ea35b/will.jpg 53w,/static/164f1d74f236a7f2ce068d0e0a65592e/982cc/will.jpg 105w,/static/164f1d74f236a7f2ce068d0e0a65592e/98c66/will.jpg 210w,/static/164f1d74f236a7f2ce068d0e0a65592e/690d8/will.jpg 420w" alt="example img"/></picture></noscript>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex flex-col items-start justify-start w-full">
+                                                                        <p class="font-all">Will Critcher</p>
+                                                                        <p class="font-all text-gray">Death Wish Coffee</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col items-start px-2 max-w-xl w-full lg:w-2/3 lg:ml-2">
+                                                            <p class="font-all text-3xl font-bold text-left w-full">Let the results from our clients speak for themselves.</p>
+                                                            <div class="w-full flex items-start pt-6 "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFzSURBVHgB7VPbVcJAFJy7Sf7TgUsFUkJ88YtWAHSAFagVSAdgBeKfRzm4JdBBoIMUwNnxBjGHPEB+/GNOTpLdnZk7+xLsQZpcJ8aYLoUJSCuQ6dn8c4ADSJMkhgn7QulCxAK0YQPJikRjCBKCyB9o4y+sLjsPhB8qN/6hb4QoFVglnR6NH+lvXDXw4ArNqa0E0SvJdlOQokB61blV0uSYtDvmsZjoS8PafZywSEE/bjDPdKIv+l3Ah646aEz0rOO25ko6Em+5LtwSdf2qy8Ip/XrQci5DU/rLm75q+mWJLEmvmpkrZpCnrxHV3M5ndzgAEfS2+/iLjDQXLfex3O0MYYJhPUVwf8g8D6XmSUkGPrXc+7LKNSLmvJyMrolYQhC0Kz0Z/HrSRA1RPV4ei03COrJiPyjlAjprfcebi1YrkF+MXa7BSBCNqsR8CfTzuDW0pQMnbOvlTNEAg3/GqcCpwKmA3mSBnxxDpASLoiFwquMxum/pG5E99KddEAAAAABJRU5ErkJggg=="
+                                                                    alt="left quote" class="w-4 pb-2 "></div>
+                                                            <p class="font-all pr-4 max-w-2xl lg:text-left">Disruptive Advertising exceeded expectations by generating an extremely high return on ad spend. A dedicated partner, their team listens to the client’s needs and provides expert feedback to
+                                                                help them meet their goals. They’ve changed communication platforms, streamlining the collaborative process.</p>
+                                                            <div class="w-full flex justify-end "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF2SURBVHgB7VTBVcJAEP2zoOd0YNIBdBCD4SpWIFQgVoBUgHYQKjBH34MH24HpgNBBvIpvx0FEErIBLt74p53Zmf9n9s0spUHIOAEERFezSW99XlyHERHuT8lT+GecBc4CZwGgTjCR7YJBHdlfZ2sb4OPvkqAlr/QDMCtX7vy8j1CBtBW+i0pjJ8hDbzZ9wgEs/Js+KRrtFClR9kDfzZP/tqBxBFSj27wtLS6tAkpdDPZcmaenGgewCMKuMPoFJ3NcElgG7YEodwuVATEOkfthQ2KKRTGlwCquF4III3lrfz/QsBraiX1HqcsHhunnB2KTZsbeXGeUBu1XseW92bWRsEHP05OoQNxqdwg8kCdw94k3SUjc+aS5PkoH3EEFfiZHTyOLqhREDesQSscyrndbs2rRMiF/rB5Ldir8MfNn09Nv6dZTLxNjDFN7zgeVeZRTKJ5ZM2Nom7S6EL7IUqZyToCvxNM6wzHIJkuHkiOTYlZactKq0G8/eZgDuHPq4QAAAABJRU5ErkJggg=="
+                                                                    alt="right quote" class="w-4 pb-8 pt-2 "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="slide">
+                                                <div class="w-full h-full">
+                                                    <div class="flex h-full flex-col lg:flex-row bg-light-gray py-16 w-full items-center lg:justify-center">
+                                                        <div class="flex flex-col pb-4 lg:mr-2 lg:ml-2">
+                                                            <div class="bg-transparent pb-4 pl-4 relative z-30 text-center m-auto"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAC2CAYAAAB08HcEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG0SURBVHgB7dvBSYNBFIXRN+pPtinBEiwlJdiGKydCCFiNJVmCW0GISQV5i1ldzlndGi58Y54+X6ouh4IYf18PBXG2AgAAgLvG9e57HaPeC0KMSx3Hbcx5fi6I8ftTAADAUmPOua/a7QtCzPn2/VTb7lDj0d1HjI/T+VgAAABwz9A8kkfzSCTNIwAAAA2aR+JoHgmleQQAgNU0j8TRPBJJ8wgAAECL5pFAmkciaR4BAABo0DwSR/NIKM0jAACspnkkjuaRSJpHAAAAWjSPBNI8EknzCAAAQIPmkTiaR0JpHgEAYDXNI3E0j0TSPAIAANCieSSQ5pFImkcAAAAaNI/E0TwSSvMIAACraR6Jo3kkkuYRAACAFs0jgTSPRNI8AgAA0KB5JI7mkVCaRwAAWE3zSBzNI5E0jwAAALRoHgmkeSSS5hEAAIAGzSNxNI+E0jwCAMBqmkfiaB6JpHkEAACgRfNIIM0jkTSPAAAANGgeiaN5JJTmEQAAVtM8EkfzSCTNIwAAAC2aRwJpHomkeQQAAKBB80gczSOhNI8AALCa5pE4mkciaR4BAABo0TwSSPNIpK3+AVqgsbt1aSCPAAAAAElFTkSuQmCC"
+                                                                    alt="gray lines box" class="absolute -z-10 w-36 bottom-0 left-0 ">
+                                                                <div class="bg-white p-2 pb-2 w-56 rounded">
+                                                                    <div class=" w-52">
+                                                                        <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                                                            <div style="max-width:210px;display:block"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height='210' width='210' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E"
+                                                                                    style="max-width:100%;display:block;position:static"></div>
+                                                                            <div aria-hidden="true" data-placeholder-image="" style="opacity:1;transition:opacity 500ms linear"></div>
+                                                                            <picture>
+                                                                                <source type="image/webp" sizes="(min-width: 210px) 210px, 100vw" srcset="/static/ff54311b219ab65956eb143449e60a82/9b17f/prem.webp 53w,/static/ff54311b219ab65956eb143449e60a82/04e70/prem.webp 105w,/static/ff54311b219ab65956eb143449e60a82/13330/prem.webp 210w,/static/ff54311b219ab65956eb143449e60a82/27135/prem.webp 420w"><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 210px) 210px, 100vw" decoding="async" loading="lazy" alt="example img" src="/static/ff54311b219ab65956eb143449e60a82/98c66/prem.jpg"
+                                                                                    srcset="/static/ff54311b219ab65956eb143449e60a82/ea35b/prem.jpg 53w,/static/ff54311b219ab65956eb143449e60a82/982cc/prem.jpg 105w,/static/ff54311b219ab65956eb143449e60a82/98c66/prem.jpg 210w,/static/ff54311b219ab65956eb143449e60a82/690d8/prem.jpg 420w"></picture><noscript><picture><source type="image/webp" srcSet="/static/ff54311b219ab65956eb143449e60a82/9b17f/prem.webp 53w,/static/ff54311b219ab65956eb143449e60a82/04e70/prem.webp 105w,/static/ff54311b219ab65956eb143449e60a82/13330/prem.webp 210w,/static/ff54311b219ab65956eb143449e60a82/27135/prem.webp 420w" sizes="(min-width: 210px) 210px, 100vw"/><img data-gatsby-image-ssr="" data-main-image="" style="opacity:0" sizes="(min-width: 210px) 210px, 100vw" decoding="async" loading="lazy" src="/static/ff54311b219ab65956eb143449e60a82/98c66/prem.jpg" srcSet="/static/ff54311b219ab65956eb143449e60a82/ea35b/prem.jpg 53w,/static/ff54311b219ab65956eb143449e60a82/982cc/prem.jpg 105w,/static/ff54311b219ab65956eb143449e60a82/98c66/prem.jpg 210w,/static/ff54311b219ab65956eb143449e60a82/690d8/prem.jpg 420w" alt="example img"/></picture></noscript>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex flex-col items-start justify-start w-full">
+                                                                        <p class="font-all">Prem Chand</p>
+                                                                        <p class="font-all text-gray">Three Bird Nest</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flex flex-col items-start px-2 max-w-xl w-full lg:w-2/3 lg:ml-2">
+                                                            <p class="font-all text-3xl font-bold text-left w-full">Let the results from our clients speak for themselves.</p>
+                                                            <div class="w-full flex items-start pt-6 "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFzSURBVHgB7VPbVcJAFJy7Sf7TgUsFUkJ88YtWAHSAFagVSAdgBeKfRzm4JdBBoIMUwNnxBjGHPEB+/GNOTpLdnZk7+xLsQZpcJ8aYLoUJSCuQ6dn8c4ADSJMkhgn7QulCxAK0YQPJikRjCBKCyB9o4y+sLjsPhB8qN/6hb4QoFVglnR6NH+lvXDXw4ArNqa0E0SvJdlOQokB61blV0uSYtDvmsZjoS8PafZywSEE/bjDPdKIv+l3Ah646aEz0rOO25ko6Em+5LtwSdf2qy8Ip/XrQci5DU/rLm75q+mWJLEmvmpkrZpCnrxHV3M5ndzgAEfS2+/iLjDQXLfex3O0MYYJhPUVwf8g8D6XmSUkGPrXc+7LKNSLmvJyMrolYQhC0Kz0Z/HrSRA1RPV4ei03COrJiPyjlAjprfcebi1YrkF+MXa7BSBCNqsR8CfTzuDW0pQMnbOvlTNEAg3/GqcCpwKmA3mSBnxxDpASLoiFwquMxum/pG5E99KddEAAAAABJRU5ErkJggg=="
+                                                                    alt="left quote" class="w-4 pb-2 "></div>
+                                                            <p class="font-all pr-4 max-w-2xl lg:text-left">We started working with Disruptive in 2018 when we didn't have an in house marketing team. They helped pull the initial strategy together to drive our business forward. Great working with them.</p>
+                                                            <div class="w-full flex justify-end "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAYAAABc6S4mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF2SURBVHgB7VTBVcJAEP2zoOd0YNIBdBCD4SpWIFQgVoBUgHYQKjBH34MH24HpgNBBvIpvx0FEErIBLt74p53Zmf9n9s0spUHIOAEERFezSW99XlyHERHuT8lT+GecBc4CZwGgTjCR7YJBHdlfZ2sb4OPvkqAlr/QDMCtX7vy8j1CBtBW+i0pjJ8hDbzZ9wgEs/Js+KRrtFClR9kDfzZP/tqBxBFSj27wtLS6tAkpdDPZcmaenGgewCMKuMPoFJ3NcElgG7YEodwuVATEOkfthQ2KKRTGlwCquF4III3lrfz/QsBraiX1HqcsHhunnB2KTZsbeXGeUBu1XseW92bWRsEHP05OoQNxqdwg8kCdw94k3SUjc+aS5PkoH3EEFfiZHTyOLqhREDesQSscyrndbs2rRMiF/rB5Ldir8MfNn09Nv6dZTLxNjDFN7zgeVeZRTKJ5ZM2Nom7S6EL7IUqZyToCvxNM6wzHIJkuHkiOTYlZactKq0G8/eZgDuHPq4QAAAABJRU5ErkJggg=="
+                                                                    alt="right quote" class="w-4 pb-8 pt-2 "></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div><button type="button" title="next slide / item" style="position:absolute;z-index:2;top:calc(50% - 15px);padding-bottom:20px;width:16px;height:16px;cursor:pointer;right:-30px;opacity:100"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACfSURBVHgBtZLNDcIwDIWfKWcaMwCETMII3YiyBWswQidgA0As0HDjhElQDzQCnBz6SZYcRe9TflwhA+vcbsG8vfd9l+5VathaI6ADAU29ZKQSVeC9f7CpjyBqvklUwSDxvyRZgn8SWm/cBWWYoSCEdg5BGfTRP0crnfAjNp44lKysa0uy04XVO7wHiWan2Ipgf7ueR4LMQWIOb92l4cgL9SlIAtavDFMAAAAASUVORK5CYII=" alt="right arrow"></button></div>
+                            </div>
+                        </ul>
+                    </section>
+                    <div class="w-full h-full relative overflow-hidden">
+                        <section class="py-16 lg:py-24 flex justify-center bg-white">
+                            <div class="container z-10 flex flex-col lg:flex-row  w-full
+      lg:items-start 
+      justify-start">
+                                <div class="
+          text-3xl font-bold lg:w-1/2
+          lg:pr-28 pb-6 lg:pb-0 
+          text-black
+          false
+          false 
+          ">
+                                    <h2 class="max-w-sm text-2r font-bold">Are you the right fit to work with Disruptive?</h2>
+                                </div>
+                                <div class="lg:w-1/2 false text-black">
+                                    <p class=" mb-4">Businesses that stand to gain the most from continuous PPC management usually look something like this:</p>
+                                    <ul class="my-8">
+                                        <li>
+                                            <div class="flex items-center my-6">
+                                                <div class="w-1/6 sm:w-16 bg-white shadow-2xl rounded-full p-4 flex justify-start items-start mr-2">
+                                                    <img src="https://disruptiveadvertising.com/static/eed47ea78e7f2ef6d3a2b4d8baf81561/1ecfc/stackOfCoins.webp" alt="">
+                                                </div>
+                                                <p class="w-full text-black">Revenue over the last 12 months &gt; $150,000</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="flex items-center my-6">
+                                                <div class="w-1/6 sm:w-16 bg-white shadow-2xl rounded-full p-4 flex justify-start items-start mr-2">
+                                                    <img src="https://disruptiveadvertising.com/static/451972308769a98061f1e62aa808bd92/1ecfc/moneyLaptop.webp" alt="">
+                                                </div>
+                                                <p class="w-full text-black">Monthly ad spend budget ≥ $3,000*</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p class=" my-4">That’s the floor, not the ceiling. The more revenue and traffic you already have, the greater your potential ROI from PPC management and revenue optimization. </p>
+                                    <p class="text-gray text-sm">*If you’re spending $20k or more per month, you will work with our Enterprise Account Executives.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="right-rectangle-bg bg-box2"></div>
+                    </div>
+                    <section class="bg-charcoal py-20 px-4">
+                        <div class="flex flex-col items-center justify-center">
+                            <h2 class="text-white text-3xl font-bold my-4">Think win-win-win</h2>
+                            <p class="text-white mb-4">When we look at who we choose to work with, it has to be a win-win-win</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row justify-center items-center">
+                            <div class="flex flex-col items-center bg-black px-12 py-8 rounded-2xl m-2">
+                                <img src="https://disruptiveadvertising.com/static/cef83b2ba2293a4450cde522436e1de3/d0131/paperShake.webp" alt="">
+                                <p class="uppercase w-32 text-center text-white">Win for our clients</p>
+                            </div>
+                            <div class="flex flex-col items-center bg-black px-12 py-8 rounded-2xl m-2">
+                                <img src="https://disruptiveadvertising.com/static/16668bf07196fe113a45570f31c06a95/d0131/dForDisruptive.webp" alt="">
+                                <p class="uppercase w-32 text-center text-white max-w-xs">Win for Disruptive</p>
+                            </div>
+                            <div class="flex flex-col items-center bg-black px-12 py-8 rounded-2xl m-2">
+                                <img src="https://disruptiveadvertising.com/static/6bb8ca1d3192153625cada4409acaae1/d0131/conferenceGroup.webp" alt="">
+                                <p class="uppercase w-32 text-center text-white">Win for our employees</p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="flex justify-center items-center mb-8 z-10">
+                        <div class="
+          container mt-20 undefined flex flex-col 
+          justify-start text-left items-start xl:text-center xl:justify-center xl:items-center z-10
+        ">
+                            <h2 class="
+            text-2xl
+            xl:text-5xl font-bold text-center lg:text-left z-10">Is your team having any of these problems?</h2>
+                            <p class="w-full xl:max-w-full text-gray text-center lg:text-left xl:text-center text-sm xl:text-base mt-8 z-10"></p>
+                            <p class="
+            w-full xl:w-full text-gray text-center lg:text-left xl:text-center
+            text-sm xl:text-base mt-8 z-10
+          "></p>
+                        </div>
+                    </div>
+                    <section class="white pb-20">
+                        <div class="container flex flex-col md:flex-row min-h-sm justify-center items-start relative z-20">
+                            <div class="w-full flex-col flex md:flex-row min-h-sm justify-center items-start">
+                                <div class=" w-full md:w-1/3 flex flex-col md:items-left">
+                                    <div class="flex md:flex-col mt-8 md:mr-8">
+                                        <div class="border-disruptive-red flex flex-col items-start text-left border-b-4 px-1 md:px-8 md:border-b-0 md:border-l-4 cursor-pointer">
+                                            <p class="text-black font-bold my-3 text-xs md:text-2xl text-left">We aren’t producing results.</p>
+                                        </div>
+                                        <div class="border-light-gray flex flex-col items-start text-left border-b-4 px-1 md:px-8 md:border-b-0 md:border-l-4 cursor-pointer">
+                                            <p class="text-gray my-3 text-xs md:text-2xl text-left">We don’t have time for digital marketing.</p>
+                                        </div>
+                                        <div class="border-light-gray flex flex-col items-start text-left border-b-4 px-1 md:px-8 md:border-b-0 md:border-l-4 cursor-pointer">
+                                            <p class="text-gray my-3 text-xs md:text-2xl text-left">We don’t have the expertise.</p>
+                                        </div>
+                                        <div class="border-light-gray flex flex-col items-start text-left border-b-4 px-1 md:px-8 md:border-b-0 md:border-l-4 cursor-pointer">
+                                            <p class="text-gray my-3 text-xs md:text-2xl text-left">We needed a solution yesterday.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-2/3 mt-8 mb-4">
+                                    <div class="md:ml-20">
+                                        <p class="my-4">With the landscape changing rapidly, many companies are left bewildered and continue to struggle to embrace change to produce the results through online advertising they are in search of.</p>
+                                        <p class="my-4 mb-10">At Disruptive, we rely on analytics to drive continual improvement and guide our innovative strategies. We use hard data and our marketing expertise to provide recommendations that align with your measurable goals.
+                                            If you or your team aren’t producing the marketing results you need, we should chat.</p><a><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 undefined text-white bg-disruptive-red hover:shadow-button hover:bg-primary-hover active:bg-primary-pressed
+      undefined
+      undefined
+      
+      ">Contact Sales</button></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-8 lg:pt-32 lg:pb-32 bg-light-gray flex flex-col items-center lg:items-center">
+                        <div class="container">
+                            <div class="max-w-5xl text-left mb-12">
+                                <h2 class="text-black pb-3 text-3xl font-bold">We will drive better results for your business than you can.</h2>
+                                <p class="text-black text-undefined">Best of all, we are low-risk. We understand the risk, time, and work that goes into outsourcing your marketing efforts. It is very important to us that we give our clients the lowest risk with enough time to give us the
+                                    highest chance of helping you succeed.</p>
+                                <p class="text-black pb-4">After our initial set up and contract commitment, we move you to a month-to-month commitment allowing you to terminate our partnership with a month’s notice, but we're pretty confident you won’t want to. </p>
+                            </div>
+                            <div class="w-full justify-center items-center lg:items-start flex-col flex">
+                                <div class="flex lg:flex-row lg:flex-wrap flex-col items-start">
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/d4d752106f53d6087c9765123a1ec7a6/1ecfc/dollars.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Over 1 billion dollars of PPC ad dollars worth of experience</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/181c60859921425f89bb734c35958783/1ecfc/barGraphCircle.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">We have developed and proven solutions in most industries</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/3a773def69c988ea3dbf59c7972b0c29/1ecfc/books.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Hundreds of published case studies for our clients</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/50511449a220128fd64613592c766e87/1ecfc/stars.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Over 1,000 positive reviews to date as a company</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/eed47ea78e7f2ef6d3a2b4d8baf81561/1ecfc/stackOfCoins.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">We manage hundreds of millions of dollars in digital advertising budgets</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/423eb9ffe6dc103d5608a2cb42669e9c/1ecfc/starBadge.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Over 50 local and national awards highlighting our industry dominance ;) </p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/85cd2a07b7b7a104f938b50e2e3a76a9/1ecfc/briefCaseSheild.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Not a single person laid off during the COVID-19 Pandemic and economic crisis</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+
+                                            <img src="https://disruptiveadvertising.com/static/6efc97be1d24dbe1ea5f97f686a07abb/1ecfc/groupMessage.webp" alt="">
+
+
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Over 120 employees that keep anonymously voting us a top places to work</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/284d929baf1d13941edee1c23863bbd5/1ecfc/computerSearch.webp" alt="">
+
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">We make sure the traffic converts with our CRO offering and design and dev resources to support that</p>
+                                    </div>
+                                    <div class="lg:w-1/3 justify-start items-start pb-12 pr-8 flex mt-6">
+                                        <div class="shadow-xl relative rounded-2xl p-8 bg-white flex items-center blockItem">
+                                            <img src="https://disruptiveadvertising.com/static/3163a9359b94cf7579b45692a5e5f727/1ecfc/targetIcon.webp" alt="">
+                                        </div>
+                                        <p class="text-black ml-4 text-md max-w-xs">Best practices for account performance such as GEO targeting that most in-house and agency solutions get wrong.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="w-full h-full relative overflow-hidden">
+                        <div class="w-full relative overflow-hidden bg-undefined undefined
+  ">
+                            <section class="flex justify-center bg-white py-8">
+                                <div class="z-10 my-0 container w-full flex flex-col items-between justify-center">
+                                    <div class="flex my-0 lg:flex-row flex-col-reverse  items-center">
+                                        <div class="flex flex-col justify-center w-full lg:w-1/2">
+                                            <div>
+                                                <h3 class="text-3xl font-bold text-black">Are we the right fit for you?</h3>
+                                                <p class="pt-4 text-undefined text-sm xl:text-base">Is your business goal to make a quick dollar? </p>
+                                                <p class="pt-4 text-undefined text-sm xl:text-base">Have you tried a few other agencies looking for that silver bullet and everyone else always seems to be the problem? </p>
+                                                <p class="pt-4 text-black text-sm xl:text-base">Do you give up on the first mistake, failed marketing test, or get offended when someone challenges your ideas? </p>
+                                                <p class="pt-4 text-black text-sm xl:text-base">If any of these ring true to you, we are likely not the right fit for you.</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center justify-center lg:justify-end  w-full lg:w-1/2 lg:ml-12">
+                                            <img src="https://disruptiveadvertising.com/static/a6723466ded30b1214d1f23ff3c2ac6f/6bf8a/whoWe1.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col py-8 lg:flex-row w-full items-center">
+                                        <div class="flex justify-center lg:justify-start w-full lg:mr-12 lg:w-1/2 lg:my-12 items-start 
+                       items-center  
+                      ">
+                                            <img src="https://disruptiveadvertising.com/static/de28840849d81ecdbaaaa018667ced15/06c6e/whoWe2.webp" alt="">
+                                        </div>
+                                        <div class="flex flex-col justify-center w-full lg:w-1/2">
+                                            <div>
+                                                <h3 class="text-3xl text-left font-bold text-black mb-6 md:mb-8">“I’m interested. How do we start?”</h3>
+                                                <p class="pt-4 text-black text-sm xl:text-base">Not sure if we are the right partner for you? Frankly, neither are we. </p>
+                                                <p class="pt-4 text-black text-sm xl:text-base">We’d love the opportunity to audit your existing efforts, review our strategy recommendations and see if we’re both committed to putting in the blood, sweat and tears our long-term partnership would require.</p>
+                                                <div class="mt-10"><a><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 undefined text-white bg-disruptive-red hover:shadow-button hover:bg-primary-hover active:bg-primary-pressed
+      undefined
+      undefined
+      
+      ">Contact sales</button></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex text-left lg:justify-center lg:text-center mt-16">
+                                        <div class="max-w-5xl flex flex-col">
+                                            <h3 class="text-3xl font-bold mb-8">Work with experts who turned PPC digital marketing into a must-have service. </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="hidden h-full bg-transparent w-full sm:flex justify-evenly absolute top-0 undefined">
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                            </div>
+                            <div class="sm:hidden h-full bg-transparent w-full flex justify-evenly absolute top-0">
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                                <div class="bg-extra-light-gray w-px"></div>
+                            </div>
+                        </div>
+                        <div class="top-left-triangle bg-light-gray"></div>
+                    </div>
+                    <section class="relative bg-disruptive-red z-10">
+                        <div class="hidden lg:block absolute left-0 top-0 h-full w-1/3 z-10"></div>
+                        <div class="container bg-disruptive-red">
+                            <div class="relative flex flex-col lg:flex-row justify-between items-start lg:w-auto bg-disruptive-red text-white mt-16 lg:mt-0 py-10 lg:py-20 lg:pr-24 z-20">
+                                <div class="w-full false mr-4">
+                                    <h2 class="text-2xl xl:text-5xl font-bold lg:pr-40 pb-3 text-white undefined">Let’s do this</h2>
+                                    <p class="max-w-2xl text-white text-base xl:text-2xl">Let’s get in touch to see if we’re a good fit to help you reach your <span class="`border`">business goals</span></p>
+                                </div>
+                                <div class="flex flex-col pt-4 lg:mt-0 justify-center lg:items-end lg:w-1/2 false"><a backgroundcolor="disruptive-red" rightsidebackgroundcolor="white"><button class="py-4 px-5 md:py-6 md:px-8 font-semibold active:text-opacity-60 undefined bg-disruptive-red text-white hover:shadow-button border-2 border-white hover:border-transparent
+      undefined
+      undefined
+      
+      ">Contact sales now</button></a></div>
+                            </div>
+                        </div>
+                        <div class="hidden lg:block absolute right-0 top-0 h-full w-1/3 bg-white z-10"></div>
+                    </section>
+                </main>
+                <div class="w-full relative overflow-hidden bg-undefined undefined
+  ">
+                    <footer>
+                        <div class="mb-28 flex-col-reverse bg-charcoal flex justify-evenly py-8 lg:pt-20 lg:pb-10 lg:flex-row">
+                            <div class="flex container flex-col-reverse md:flex-row">
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Services</h2>
+                                    <a href="/ppc-management-services/paid-search-management/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Paid Advertising</p>
+                                    </a>
+                                    <a href="/lifecycle-marketing/lead-nurture/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Lifecycle Marketing</p>
+                                    </a>
+                                    <a href="/creative-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Creative Services</p>
+                                    </a>
+                                    <a href="/conversion-rate-optimization-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Website Optimization</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Industries</h2>
+                                    <a href="/industry/ecommerce/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Ecommerce</p>
+                                    </a>
+                                    <a href="/industry/b2b/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">B2B</p>
+                                    </a>
+                                    <a href="/industry/legal/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Legal</p>
+                                    </a>
+                                    <a href="/industry/home-services/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Home Services</p>
+                                    </a>
+                                    <a href="/industry/healthcare/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Healthcare</p>
+                                    </a>
+                                    <a href="/industry/finance/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Finance</p>
+                                    </a>
+                                    <a href="/industry/insurance/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Insurance</p>
+                                    </a>
+                                    <a href="/industry/education/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Education</p>
+                                    </a>
+                                    <a href="/enterprise/ecommerce/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Enterprise</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 mr-8 z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">About Us</h2>
+                                    <a href="/about/our-mission/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Our Mission</p>
+                                    </a>
+                                    <a href="/about/meet-our-team/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Meet the Team</p>
+                                    </a>
+                                    <a href="/about/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">About Us</p>
+                                    </a>
+                                    <a href="/careers/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Careers</p>
+                                    </a>
+                                    <a href="/partners/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Partners</p>
+                                    </a>
+                                    <a aria-current="page" class="" href="/about/who-we-work-with/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Who We Work With</p>
+                                    </a>
+                                </div>
+                                <div class="mb-10 false z-10 w-full">
+                                    <h2 class="font-all font-semibold pb-3 text-white">Blog</h2>
+                                    <a href="/social-media/facebook-power-5/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Facebook Power 5</p>
+                                    </a>
+                                    <a href="/ppc/ecommerce/ecommerce-buyer-personas/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Ecommerce Buyer Personas</p>
+                                    </a>
+                                    <a href="/business/innovating-in-the-workplace/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Innovating In The Workplace</p>
+                                    </a>
+                                    <a href="/video-advertising/video-motion-creative/">
+                                        <p class="font-all leading-6 font-normal pb-3 text-gray">Video Motion Creative</p>
+                                    </a>
+                                </div>
+                                <div class="flex flex-col justify-start items-start lg:items-end z-10 relative">
+                                    <a href="/"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTE2IiBoZWlnaHQ9IjE5IiB2aWV3Qm94PSIwIDAgMTE2IDE5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI0LjIwMzYgMS44NDgwOEMyMy40NjYyIDIuNjM5NjYgMjMuMDA2OCAzLjY5MDk5IDIzLjAwNjggNS4wMTI1OUMyMy4wMDY4IDYuNTE1MjggMjMuNDc2NyA3LjU3NzEgMjQuMjAzNiA4LjM3MDk2VjEuODQ4MDhaTTI0LjIwMzYgMTIuODE2NEwyMS42MDAyIDE1LjM3MDJDMjIuNDE5IDE2LjE5OTcgMjMuMjc3NiAxNi44Nzg4IDI0LjIwMzYgMTcuMzg5MlYxMi44MTY0Wk0yNC4yMDQ3IDE3LjM4OThWMTIuODE1M0wyNC4yODU1IDEyLjczNjFMMjQuMzQ1NiAxMi43OTE3QzI1LjY5NzIgMTQuMDQzNiAyNi43NDMgMTUuMDEyMiAyOC42MzMyIDE1LjAxMjJDMjguNjg1NSAxNS4wMTIyIDI4LjczNzggMTUuMDExMiAyOC43OTAxIDE1LjAwOTFMMjcuNDY3MSAxOC40Mjg1QzI2LjI3ODQgMTguMjkzNSAyNS4yMDI1IDE3LjkzOTYgMjQuMjA0NyAxNy4zODk4Wk0zMi42NjIzIDUuMDAwODJDMzEuNjQwNyA0LjE3NzI1IDMwLjQxMzkgMy40NTI1NSAyOS4wOTM1IDMuNDUyNTVDMjguMTQ3MyAzLjQ1MjU1IDI3LjE0OTkgMy45NjQwNCAyNy4xNDk5IDQuOTg3MDFDMjcuMTQ5OSA2LjEwNjA1IDI4LjMzNTkgNi40OTA5IDI5LjM5OTYgNi44MzYwN0wyOS4zOTk2IDYuODM2MDhMMjkuMzk5NiA2LjgzNjA5QzI5LjU3NTcgNi44OTMyMyAyOS43NDg0IDYuOTQ5MjggMjkuOTExOSA3LjAwNzRDMzAuNDcyIDcuMTk5NzQgMzEuMDU5NiA3LjQwNzExIDMxLjYzNTEgNy42NTU3OUwzMC4xNTI5IDExLjQ4NjhDMjkuNTY2OCAxMS4xMDUxIDI4Ljc4NzkgMTAuODIxNCAyOC4wMDkxIDEwLjUzNzdMMjcuODY1OSAxMC40ODU1QzI2LjUyMzIgOS45ODAyIDI1LjE0NzkgOS40MDE1MiAyNC4yMDQ3IDguMzcyMTdWMS44NDY5QzI1LjM2NTIgMC42MDIwMDQgMjcuMjEzMyAwIDI5LjA0MjQgMEMzMC45NDIxIDAgMzIuNTA4NCAwLjUwMDE5MSAzNC4wMzc0IDEuNDQ2NzNMMzIuNjYyMyA1LjAwMDgyWk0wIDE4LjE4MzRINS4xNDA0NkMxMC4xMDE5IDE4LjE4MzQgMTUuMjY3OSAxNS43Nzk0IDE1LjI2NzkgOS4xNTU2NUMxNS4yNjc5IDIuNjg1MzIgMTAuMDI1MiAwLjI4MTMxOCA1LjM3MDYzIDAuMjgxMzE4SDBWMTguMTgzNFpNNC4xNDMwNiAzLjcwODI5SDQuOTYxNDRDOC42OTUzMSAzLjcwODI5IDEwLjg2OTEgNS42Nzc1MyAxMC44NjkxIDkuMzg1ODJDMTAuODY5MSAxMy4yOTg3IDguMjA5MzkgMTQuNzU2NCA0LjM3MzIzIDE0Ljc1NjRINC4xNDMwNlYzLjcwODI5Wk0yMC44NDA0IDE4LjE4MzRWMC4yODEzMThIMTYuNjk3M1YxOC4xODM0SDIwLjg0MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM2LjE5ODEgMC43ODg4OTRDMzcuOTQ1MiAxLjQ3ODMzIDM5LjM3NTYgMi45MDg0NSAzOS4zNzU2IDUuMzE4NDRDMzkuMzc1NiA3Ljk1MjYgMzcuNjg3NyA5Ljg0NTExIDM0LjcyMTEgMTAuMzMxQzM2LjY2NDcgMTIuOTkwOCAzOS41NTQ2IDE2Ljg3ODEgNDAuNTI2NSAxOC4xODI0SDM4LjE3MzZMMzIuNTQ3MiAxMC4zODIySDMyLjQyNThMMzMuMTExMiA4LjYzOTEyQzM1LjcyIDguNTcwNDUgMzcuMzU1MiA3LjYwOTg4IDM3LjM1NTIgNS4zNjk1OEMzNy4zNTUyIDQuMDYwNjcgMzYuNjY4MiAzLjA0MTU3IDM1LjUzMDcgMi40ODYxNUwzNi4xOTgxIDAuNzg4ODk0Wk01NS44OTAzIDAuMjgwMjczSDUzLjk5NzhWMTAuNDg0NUM1My45OTc4IDE0LjcwNDMgNTIuMTMwOSAxNi43NTAyIDQ5LjA4NzUgMTYuNzUwMkM0Ni4wNjk3IDE2Ljc1MDIgNDQuMTc3MiAxNC43MDQzIDQ0LjE3NzIgMTAuNDg0NVYwLjI4MDI3M0g0Mi4yODQ3VjkuNzY4MzlDNDIuMjg0NyAxNS4zOTQ4IDQ0LjMzMDcgMTguNDg5MyA0OS4wMzYzIDE4LjQ4OTNDNTMuODY5OSAxOC40ODkzIDU1Ljg5MDMgMTUuMzk0OCA1NS44OTAzIDkuNzY4MzlWMC4yODAyNzNaTTU5Ljk0NzIgMTguMTgyNFYwLjI4MDI3M0g2NS4xMTMzQzY3Ljk1MiAwLjI4MDI3MyA3MS4yNTExIDEuNjg2ODcgNzEuMjUxMSA1LjUyMzAzQzcxLjI1MTEgOS4zODQ3NyA2Ny45Nzc2IDEwLjc5MTQgNjUuMTEzMyAxMC43OTE0SDYxLjgzOThWMTguMTgyNEg1OS45NDcyWk02NC45ODU0IDIuMDE5MzNINjEuODM5OFY5LjA1MjNINjQuNDczOUM2Ny4xODQ4IDkuMDUyMyA2OS4yMzA4IDguMTU3MiA2OS4yMzA4IDUuNTc0MThDNjkuMjMwOCAzLjM0OTIxIDY3LjQ5MTcgMi4wMTkzMyA2NC45ODU0IDIuMDE5MzNaTTgyLjg2NTEgMi4wMTkzM1YwLjI4MDI3M0g3MS43MTQ3VjIuMDE5MzNINzYuMzQzN1YxOC4xODI0SDc4LjIzNjJWMi4wMTkzM0g4Mi44NjUxWk04Ny4wMTY2IDAuMjgwMjczVjE4LjE4MjRIODUuMTI0MVYwLjI4MDI3M0g4Ny4wMTY2Wk0xMDMuNDk3IDAuMjgwMjczSDEwMS40NzZMOTUuNzk4NiAxNS4zMThIOTUuNzczTDkwLjgxMTYgMC4yODAyNzNIODguNjM3OEw5NC44NTIzIDE4LjE4MjRIOTYuNjE3TDEwMy40OTcgMC4yODAyNzNaTTExNS43NjUgMTYuNDQzM1YxOC4xODI0SDEwNS4zNTZWMC4yODAyNzNIMTE1Ljc2NVYyLjAxOTMzSDEwNy4yNDhWOC4wNTQ5SDExNS43NjVWOS43OTM5NkgxMDcuMjQ4VjE2LjQ0MzNIMTE1Ljc2NVoiIGZpbGw9IiNBMUE2QUEiLz4KPC9zdmc+Cg=="
+                                            alt="Disruptive Advertising Logo"></a>
+                                    <div class="flex flex-col justify-evenly pt-6 pb-2 lg:flex-row z-10 relative">
+                                        <a href="https://www.facebook.com/disruptiveads/" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="/static/facebookLogo-d27bb0805b51bce3dfa4e01b93c154c4.svg" alt="facebook logo"></div>
+                                        </a>
+                                        <a href="https://www.instagram.com/disruptiveads/?hl=en" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjU4NDUgMEg0LjQxNTMzQzEuOTgwNzIgMCAwIDEuOTgwODEgMCA0LjQxNTQyVjExLjU4NDZDMCAxNC4wMTkzIDEuOTgwNzIgMTYgNC40MTUzMyAxNkgxMS41ODQ1QzE0LjAxOTMgMTYgMTYgMTQuMDE5MiAxNiAxMS41ODQ2VjQuNDE1NDJDMTYuMDAwMSAxLjk4MDgxIDE0LjAxOTMgMCAxMS41ODQ1IDBaTTE0LjU4MDUgMTEuNTg0NkMxNC41ODA1IDEzLjIzNjUgMTMuMjM2NSAxNC41ODA0IDExLjU4NDYgMTQuNTgwNEg0LjQxNTMzQzIuNzYzNDggMTQuNTgwNSAxLjQxOTYgMTMuMjM2NSAxLjQxOTYgMTEuNTg0NlY0LjQxNTQyQzEuNDE5NiAyLjc2MzU4IDIuNzYzNDggMS40MTk2IDQuNDE1MzMgMS40MTk2SDExLjU4NDVDMTMuMjM2NCAxLjQxOTYgMTQuNTgwNCAyLjc2MzU4IDE0LjU4MDQgNC40MTU0MlYxMS41ODQ2SDE0LjU4MDVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNy45OTc4IDMuODc3NjlDNS43MjQ0NSAzLjg3NzY5IDMuODc1IDUuNzI3MTQgMy44NzUgOC4wMDA0OEMzLjg3NSAxMC4yNzM3IDUuNzI0NDUgMTIuMTIzMSA3Ljk5NzggMTIuMTIzMUMxMC4yNzExIDEyLjEyMzEgMTIuMTIwNiAxMC4yNzM3IDEyLjEyMDYgOC4wMDA0OEMxMi4xMjA2IDUuNzI3MTQgMTAuMjcxMSAzLjg3NzY5IDcuOTk3OCAzLjg3NzY5Wk03Ljk5NzggMTAuNzAzNEM2LjUwNzMxIDEwLjcwMzQgNS4yOTQ2IDkuNDkwODcgNS4yOTQ2IDguMDAwMzlDNS4yOTQ2IDYuNTA5ODEgNi41MDcyMiA1LjI5NzE5IDcuOTk3OCA1LjI5NzE5QzkuNDg4MzcgNS4yOTcxOSAxMC43MDEgNi41MDk4MSAxMC43MDEgOC4wMDAzOUMxMC43MDEgOS40OTA4NyA5LjQ4ODI4IDEwLjcwMzQgNy45OTc4IDEwLjcwMzRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTIuMjk0OSAyLjY3NDA3QzEyLjAyMTQgMi42NzQwNyAxMS43NTI4IDIuNzg0OCAxMS41NTk2IDIuOTc4ODFDMTEuMzY1NSAzLjE3MTg4IDExLjI1MzkgMy40NDA2NSAxMS4yNTM5IDMuNzE1MTFDMTEuMjUzOSAzLjk4ODcxIDExLjM2NTYgNC4yNTc0IDExLjU1OTYgNC40NTE0MUMxMS43NTI3IDQuNjQ0NDcgMTIuMDIxNCA0Ljc1NjE1IDEyLjI5NDkgNC43NTYxNUMxMi41Njk0IDQuNzU2MTUgMTIuODM3MiA0LjY0NDQ3IDEzLjAzMTIgNC40NTE0MUMxMy4yMjUzIDQuMjU3NCAxMy4zMzYgMy45ODg2MiAxMy4zMzYgMy43MTUxMUMxMy4zMzYgMy40NDA2NSAxMy4yMjUzIDMuMTcxODggMTMuMDMxMiAyLjk3ODgxQzEyLjgzODIgMi43ODQ4IDEyLjU2OTQgMi42NzQwNyAxMi4yOTQ5IDIuNjc0MDdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
+                                                    alt="instagram logo"></div>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/disruptive-advertising/" rel="noopener noreferrer" target="_blank">
+                                            <div class="flex justify-center items-center"><img class="px-2 hidden lg:flex" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuOTQwMyAwQzAuNzY3MDc2IDAgMCAwLjc3MDM5NiAwIDEuNzgyOTdDMCAyLjc3MzE5IDAuNzQ0MjI1IDMuNTY1NTYgMS44OTUyOCAzLjU2NTU2SDEuOTE3NTRDMy4xMTM3MSAzLjU2NTU2IDMuODU4MTMgMi43NzMxOSAzLjg1ODEzIDEuNzgyOTdDMy44MzU3NyAwLjc3MDM5NiAzLjExMzcxIDAgMS45NDAzIDBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMC4yMDMxMjUgNC45NzM2M0gzLjYzMjk0VjE1LjI5MjRIMC4yMDMxMjVWNC45NzM2M1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMi4wNTExIDQuNzMyMThDMTAuMjAwOSA0LjczMjE4IDguOTYwMTkgNi40NzA4MiA4Ljk2MDE5IDYuNDcwODJWNC45NzQzNkg1LjUzMDI3VjE1LjI5MzFIOC45NlY5LjUzMDcyQzguOTYgOS4yMjIyMyA4Ljk4MjM2IDguOTE0MjMgOS4wNzI5OCA4LjY5MzYzQzkuMzIwOTMgOC4wNzc2MiA5Ljg4NTE3IDcuNDM5NDUgMTAuODMyNyA3LjQzOTQ1QzEyLjA3MzggNy40Mzk0NSAxMi41NzAyIDguMzg1NzIgMTIuNTcwMiA5Ljc3MjkxVjE1LjI5MzFIMTUuOTk5N1Y5LjM3NjUzQzE1Ljk5OTcgNi4yMDcwNSAxNC4zMDc2IDQuNzMyMTggMTIuMDUxMSA0LjczMjE4WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
+                                                    alt="linkedin logo"></div>
+                                        </a>
+                                        <a href="https://www.facebook.com/disruptiveads/" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Facebook</p>
+                                        </a>
+                                        <a href="https://www.instagram.com/disruptiveads/?hl=en" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Instagram</p>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/disruptive-advertising/" rel="noopener noreferrer" target="_blank">
+                                            <p class="font-all leading-6 font-normal pb-3 lg:hidden text-gray">Linkedin</p>
+                                        </a>
+                                    </div><a href="tel:8779567510" class="text-white mb-4 lg:mb-0 lg:mt-3" data-ctm-watch-id="1" data-ctm-tracked="1">(877) 956-7510</a>
+                                    <div class="z-10 flex flex-col items-start mb-10 mt-0 lg:mt-32">
+                                        <p class="font-all pb-2 font-semibold text-white">Ready to work with us?</p>
+                                        <div class="relative">
+                                            <form><input class="relative bg-charcoal pl-2 border border-footer text-gray border-gray w-30 md:w-60 h-12 bg-black" placeholder="Email" name="userEmail" value=""><img class="absolute right-4 bottom-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC1SURBVHgBpZJNCsJADIVf2oLbeoMexZ/i2qu4EBERUwQLunDrVUSk7Qk8gh7BpSCd6CCilMrM1A8GAuF7ZEIAC5bpZqFfXc83yczbEEG5E8GwHw+QHQ/Fd98zB4yugrILwkWJcHUSgiWcphHBzyCIPCKeT8eJU8CvEEpW6zOcoBCQUFc6JBC4QfgYpVLU+AsikvBswo2W+JZfE/0hWwXoQ6LW/VQna4yXmOf7W6cXt59lUZU1D7T7WV5r03jVAAAAAElFTkSuQmCC"
+                                                    alt="right arrow"></form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="
+          z-10 absolute bottom-0 w-full 
+          bg-black 
+          text-gray 
+          py-10 lg:py-8
+        ">
+                            <div class="container flex flex-col justify-start lg:flex-row lg:justify-between">
+                                <p class="font-all pb-6 z-10">© 2021 Disruptive Advertising</p>
+                                <a href="/privacy-policy">
+                                    <p class="font-all pb-6 z-10">Privacy Policy</p>
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
+                    <div class="hidden h-full bg-transparent w-full sm:flex justify-evenly absolute top-0 undefined">
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                    </div>
+                    <div class="sm:hidden h-full bg-transparent w-full flex justify-evenly absolute top-0">
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                        <div class="bg-line-dark w-px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
