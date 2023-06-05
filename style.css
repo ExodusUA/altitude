@@ -1114,6 +1114,12 @@ header {
     .practices-section {
         overflow: hidden;
     }
+    .right-side-menu ul li a {
+        font-size: 30px;
+    }
+    .right-side-menu ul li {
+        margin-top: 10px;
+    }
 }
 
 .scroll-disabled {
